@@ -1,0 +1,404 @@
+ 2026-05-24 18:29:12,131 creating app
+ 2026-05-24 18:29:12,172 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:29:12,172 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:29:12,173  * Restarting with stat
+ 2026-05-24 18:29:12,281 creating app
+ 2026-05-24 18:29:12,300  * Debugger is active!
+ 2026-05-24 18:29:12,312  * Debugger PIN: 836-164-441
+ 2026-05-24 18:30:42,651 creating app
+ 2026-05-24 18:32:43,067 creating app
+ 2026-05-24 18:32:43,107 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:32:43,107 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:32:43,107  * Restarting with stat
+ 2026-05-24 18:32:43,217 creating app
+ 2026-05-24 18:32:43,236  * Debugger is active!
+ 2026-05-24 18:32:43,251  * Debugger PIN: 836-164-441
+ 2026-05-24 18:32:49,485  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/db.py', reloading
+ 2026-05-24 18:32:49,524  * Restarting with stat
+ 2026-05-24 18:32:49,646 creating app
+ 2026-05-24 18:32:49,669  * Debugger is active!
+ 2026-05-24 18:32:49,680  * Debugger PIN: 836-164-441
+ 2026-05-24 18:32:53,199 creating app
+ 2026-05-24 18:32:53,223 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:32:53,223 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:32:53,223  * Restarting with stat
+ 2026-05-24 18:32:53,324 creating app
+ 2026-05-24 18:32:53,342  * Debugger is active!
+ 2026-05-24 18:32:53,351  * Debugger PIN: 836-164-441
+ 2026-05-24 18:34:21,490  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 18:34:21,534  * Restarting with stat
+ 2026-05-24 18:34:21,704 creating app
+ 2026-05-24 18:34:21,735  * Debugger is active!
+ 2026-05-24 18:34:21,779  * Debugger PIN: 112-116-883
+ 2026-05-24 18:35:29,146  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/db.py', reloading
+ 2026-05-24 18:35:29,190  * Restarting with stat
+ 2026-05-24 18:35:29,356 creating app
+ 2026-05-24 18:35:29,383  * Debugger is active!
+ 2026-05-24 18:35:29,395  * Debugger PIN: 112-116-883
+ 2026-05-24 18:35:32,355 creating app
+ 2026-05-24 18:35:47,370 creating app
+ 2026-05-24 18:42:49,482 creating app
+ 2026-05-24 18:43:32,972 creating app
+ 2026-05-24 18:44:21,886 creating app
+ 2026-05-24 18:44:38,513 creating app
+ 2026-05-24 18:44:48,588 creating app
+ 2026-05-24 18:45:19,730 creating app
+ 2026-05-24 18:45:32,081 creating app
+ 2026-05-24 18:46:38,802 creating app
+ 2026-05-24 18:48:49,935 creating app
+ 2026-05-24 18:53:28,535 creating app
+ 2026-05-24 18:54:22,060 creating app
+ 2026-05-24 18:56:54,701 creating app
+ 2026-05-24 18:56:54,744 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:56:54,745 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:56:54,745  * Restarting with stat
+ 2026-05-24 18:56:54,845 creating app
+ 2026-05-24 18:56:54,865  * Debugger is active!
+ 2026-05-24 18:56:54,877  * Debugger PIN: 836-164-441
+ 2026-05-24 18:59:10,396  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/db.py', reloading
+ 2026-05-24 18:59:10,454  * Restarting with stat
+ 2026-05-24 18:59:10,614 creating app
+ 2026-05-24 18:59:10,643  * Debugger is active!
+ 2026-05-24 18:59:10,656  * Debugger PIN: 836-164-441
+ 2026-05-24 18:59:13,216 creating app
+ 2026-05-24 18:59:13,242 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:59:13,242 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:59:13,243  * Restarting with stat
+ 2026-05-24 18:59:13,349 creating app
+ 2026-05-24 18:59:13,367  * Debugger is active!
+ 2026-05-24 18:59:13,377  * Debugger PIN: 836-164-441
+ 2026-05-24 18:59:25,784  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/db.py', reloading
+ 2026-05-24 18:59:25,829  * Restarting with stat
+ 2026-05-24 18:59:25,977 creating app
+ 2026-05-24 18:59:26,008  * Debugger is active!
+ 2026-05-24 18:59:26,029  * Debugger PIN: 836-164-441
+ 2026-05-24 18:59:28,095 creating app
+ 2026-05-24 18:59:28,121 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 18:59:28,121 [33mPress CTRL+C to quit[0m
+ 2026-05-24 18:59:28,121  * Restarting with stat
+ 2026-05-24 18:59:28,229 creating app
+ 2026-05-24 18:59:28,250  * Debugger is active!
+ 2026-05-24 18:59:28,259  * Debugger PIN: 836-164-441
+ 2026-05-24 19:00:10,334 creating app
+ 2026-05-24 19:00:53,332 creating app
+ 2026-05-24 19:01:44,312 creating app
+ 2026-05-24 19:02:12,230 creating app
+ 2026-05-24 19:02:12,275 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:02:12,275 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:02:12,276  * Restarting with stat
+ 2026-05-24 19:02:12,375 creating app
+ 2026-05-24 19:02:12,397  * Debugger is active!
+ 2026-05-24 19:02:12,408  * Debugger PIN: 836-164-441
+ 2026-05-24 19:02:24,319 creating app
+ 2026-05-24 19:03:14,673 creating app
+ 2026-05-24 19:03:18,086 creating app
+ 2026-05-24 19:03:18,122 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:03:18,122 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:03:18,123  * Restarting with stat
+ 2026-05-24 19:03:18,217 creating app
+ 2026-05-24 19:03:18,237  * Debugger is active!
+ 2026-05-24 19:03:18,251  * Debugger PIN: 836-164-441
+ 2026-05-24 19:04:07,560 127.0.0.1 - - [24/May/2026 19:04:07] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 19:04:08,298 127.0.0.1 - - [24/May/2026 19:04:08] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 19:05:03,834  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:05:03,883  * Restarting with stat
+ 2026-05-24 19:05:04,137 creating app
+ 2026-05-24 19:05:04,173  * Debugger is active!
+ 2026-05-24 19:05:04,186  * Debugger PIN: 836-164-441
+ 2026-05-24 19:05:07,151 creating app
+ 2026-05-24 19:05:07,178 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:05:07,178 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:05:07,178  * Restarting with stat
+ 2026-05-24 19:05:07,284 creating app
+ 2026-05-24 19:05:07,305  * Debugger is active!
+ 2026-05-24 19:05:07,313  * Debugger PIN: 836-164-441
+ 2026-05-24 19:05:11,112 127.0.0.1 - - [24/May/2026 19:05:11] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 19:06:27,487  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:06:27,585  * Restarting with stat
+ 2026-05-24 19:06:27,762 creating app
+ 2026-05-24 19:06:27,796  * Debugger is active!
+ 2026-05-24 19:06:27,808  * Debugger PIN: 836-164-441
+ 2026-05-24 19:06:37,136  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:06:37,181  * Restarting with stat
+ 2026-05-24 19:06:37,336 creating app
+ 2026-05-24 19:06:37,362  * Debugger is active!
+ 2026-05-24 19:06:37,374  * Debugger PIN: 836-164-441
+ 2026-05-24 19:06:40,111 creating app
+ 2026-05-24 19:06:40,141 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:06:40,141 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:06:40,141  * Restarting with stat
+ 2026-05-24 19:06:40,245 creating app
+ 2026-05-24 19:06:40,266  * Debugger is active!
+ 2026-05-24 19:06:40,275  * Debugger PIN: 836-164-441
+ 2026-05-24 19:06:48,309 127.0.0.1 - - [24/May/2026 19:06:48] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:06:58,044 creating app
+ 2026-05-24 19:06:58,077 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:06:58,077 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:06:58,078  * Restarting with stat
+ 2026-05-24 19:06:58,178 creating app
+ 2026-05-24 19:06:58,198  * Debugger is active!
+ 2026-05-24 19:06:58,210  * Debugger PIN: 836-164-441
+ 2026-05-24 19:07:00,567 127.0.0.1 - - [24/May/2026 19:07:00] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:07:01,199 127.0.0.1 - - [24/May/2026 19:07:01] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:07:11,337 127.0.0.1 - - [24/May/2026 19:07:11] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 19:08:06,246 creating app
+ 2026-05-24 19:08:06,288 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+ 2026-05-24 19:08:06,288 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:08:06,289  * Restarting with stat
+ 2026-05-24 19:08:06,385 creating app
+ 2026-05-24 19:08:06,406  * Debugger is active!
+ 2026-05-24 19:08:06,417  * Debugger PIN: 836-164-441
+ 2026-05-24 19:08:16,072 127.0.0.1 - - [24/May/2026 19:08:16] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 19:08:16,354 127.0.0.1 - - [24/May/2026 19:08:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-05-24 19:14:46,950 creating app
+ 2026-05-24 19:14:46,994 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+ 2026-05-24 19:14:46,994 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:14:46,995  * Restarting with stat
+ 2026-05-24 19:14:47,099 creating app
+ 2026-05-24 19:14:47,120  * Debugger is active!
+ 2026-05-24 19:14:47,132  * Debugger PIN: 836-164-441
+ 2026-05-24 19:17:51,564 127.0.0.1 - - [24/May/2026 19:17:51] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:17:53,135 127.0.0.1 - - [24/May/2026 19:17:53] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:25:16,870 creating app
+ 2026-05-24 19:25:16,912 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+ 2026-05-24 19:25:16,913 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:25:16,913  * Restarting with stat
+ 2026-05-24 19:25:17,015 creating app
+ 2026-05-24 19:25:17,033  * Debugger is active!
+ 2026-05-24 19:25:17,048  * Debugger PIN: 836-164-441
+ 2026-05-24 19:25:36,721  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:25:36,767  * Restarting with stat
+ 2026-05-24 19:25:36,947  * Debugger is active!
+ 2026-05-24 19:25:36,958  * Debugger PIN: 112-116-883
+ 2026-05-24 19:26:28,172 creating app
+ 2026-05-24 19:26:28,223 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+ 2026-05-24 19:26:28,223 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:26:28,224  * Restarting with stat
+ 2026-05-24 19:26:28,345 creating app
+ 2026-05-24 19:26:28,368  * Debugger is active!
+ 2026-05-24 19:26:28,380  * Debugger PIN: 836-164-441
+ 2026-05-24 19:26:44,899  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:26:44,945  * Restarting with stat
+ 2026-05-24 19:26:45,125 Creating CatsAndDogs app
+ 2026-05-24 19:26:45,154  * Debugger is active!
+ 2026-05-24 19:26:45,169  * Debugger PIN: 836-164-441
+ 2026-05-24 19:26:47,376 Creating CatsAndDogs app
+ 2026-05-24 19:26:47,401 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+ 2026-05-24 19:26:47,401 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:26:47,401  * Restarting with stat
+ 2026-05-24 19:26:47,506 Creating CatsAndDogs app
+ 2026-05-24 19:26:47,526  * Debugger is active!
+ 2026-05-24 19:26:47,536  * Debugger PIN: 836-164-441
+ 2026-05-24 19:28:22,835  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 19:28:22,886  * Restarting with stat
+ 2026-05-24 19:28:23,037 Creating CatsAndDogs app
+ 2026-05-24 19:28:23,063  * Debugger is active!
+ 2026-05-24 19:28:23,077  * Debugger PIN: 836-164-441
+ 2026-05-24 19:31:48,166 Creating CatsAndDogs app
+ 2026-05-24 19:32:06,842 Creating CatsAndDogs app
+ 2026-05-24 19:32:06,892 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:32:06,892 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:32:06,893  * Restarting with stat
+ 2026-05-24 19:32:06,994 Creating CatsAndDogs app
+ 2026-05-24 19:32:07,013  * Debugger is active!
+ 2026-05-24 19:32:07,027  * Debugger PIN: 836-164-441
+ 2026-05-24 19:37:48,324 Creating CatsAndDogs app
+ 2026-05-24 19:53:24,397 Creating CatsAndDogs app
+ 2026-05-24 19:53:24,439 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 19:53:24,439 [33mPress CTRL+C to quit[0m
+ 2026-05-24 19:53:24,439  * Restarting with stat
+ 2026-05-24 19:53:24,535 Creating CatsAndDogs app
+ 2026-05-24 19:53:24,555  * Debugger is active!
+ 2026-05-24 19:53:24,567  * Debugger PIN: 836-164-441
+ 2026-05-24 19:53:37,973 127.0.0.1 - - [24/May/2026 19:53:37] "[33mGET / HTTP/1.1[0m" 404 -
+ 2026-05-24 19:53:49,049 127.0.0.1 - - [24/May/2026 19:53:49] "[33mGET /auth/register HTTP/1.1[0m" 404 -
+ 2026-05-24 19:55:36,085 Creating CatsAndDogs app
+ 2026-05-24 20:00:09,135 Creating CatsAndDogs app
+ 2026-05-24 20:03:17,198 Creating CatsAndDogs app
+ 2026-05-24 20:03:17,246 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 20:03:17,246 [33mPress CTRL+C to quit[0m
+ 2026-05-24 20:03:17,246  * Restarting with stat
+ 2026-05-24 20:03:17,350 Creating CatsAndDogs app
+ 2026-05-24 20:03:17,373  * Debugger is active!
+ 2026-05-24 20:03:17,386  * Debugger PIN: 836-164-441
+ 2026-05-24 20:03:43,274 127.0.0.1 - - [24/May/2026 20:03:43] "GET /ping HTTP/1.1" 200 -
+ 2026-05-24 20:03:50,796 127.0.0.1 - - [24/May/2026 20:03:50] "GET /auth/register HTTP/1.1" 200 -
+ 2026-05-24 20:04:40,206 127.0.0.1 - - [24/May/2026 20:04:40] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+ 2026-05-24 20:04:40,217 127.0.0.1 - - [24/May/2026 20:04:40] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:04:40,250 127.0.0.1 - - [24/May/2026 20:04:40] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-05-24 20:04:40,250 127.0.0.1 - - [24/May/2026 20:04:40] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-05-24 20:04:40,293 127.0.0.1 - - [24/May/2026 20:04:40] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=tRzCtzc0pAF4iZyxcjbO HTTP/1.1" 200 -
+ 2026-05-24 20:04:40,323 127.0.0.1 - - [24/May/2026 20:04:40] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-05-24 20:05:33,830 127.0.0.1 - - [24/May/2026 20:05:33] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:05:33,878 127.0.0.1 - - [24/May/2026 20:05:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:33,880 127.0.0.1 - - [24/May/2026 20:05:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:33,894 127.0.0.1 - - [24/May/2026 20:05:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=tRzCtzc0pAF4iZyxcjbO HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:33,907 127.0.0.1 - - [24/May/2026 20:05:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:34,957 127.0.0.1 - - [24/May/2026 20:05:34] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:05:34,968 127.0.0.1 - - [24/May/2026 20:05:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:34,973 127.0.0.1 - - [24/May/2026 20:05:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:34,977 127.0.0.1 - - [24/May/2026 20:05:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=tRzCtzc0pAF4iZyxcjbO HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:34,984 127.0.0.1 - - [24/May/2026 20:05:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:39,694 127.0.0.1 - - [24/May/2026 20:05:39] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:05:39,714 127.0.0.1 - - [24/May/2026 20:05:39] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:39,718 127.0.0.1 - - [24/May/2026 20:05:39] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:39,723 127.0.0.1 - - [24/May/2026 20:05:39] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=tRzCtzc0pAF4iZyxcjbO HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:39,739 127.0.0.1 - - [24/May/2026 20:05:39] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:41,026 127.0.0.1 - - [24/May/2026 20:05:41] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:05:41,046 127.0.0.1 - - [24/May/2026 20:05:41] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:41,051 127.0.0.1 - - [24/May/2026 20:05:41] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:41,059 127.0.0.1 - - [24/May/2026 20:05:41] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=tRzCtzc0pAF4iZyxcjbO HTTP/1.1[0m" 304 -
+ 2026-05-24 20:05:41,070 127.0.0.1 - - [24/May/2026 20:05:41] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:06:00,875 127.0.0.1 - - [24/May/2026 20:06:00] "GET /auth/login HTTP/1.1" 200 -
+ 2026-05-24 20:08:57,378  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-05-24 20:08:57,786  * Restarting with stat
+ 2026-05-24 20:08:57,970 Creating CatsAndDogs app
+ 2026-05-24 20:08:58,005  * Debugger is active!
+ 2026-05-24 20:08:58,018  * Debugger PIN: 836-164-441
+ 2026-05-24 20:11:56,026 127.0.0.1 - - [24/May/2026 20:11:56] "GET /auth/login HTTP/1.1" 200 -
+ 2026-05-24 20:12:28,112 127.0.0.1 - - [24/May/2026 20:12:28] "GET /auth/login HTTP/1.1" 200 -
+ 2026-05-24 20:12:34,191 127.0.0.1 - - [24/May/2026 20:12:34] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:12:34,220 127.0.0.1 - - [24/May/2026 20:12:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:12:34,221 127.0.0.1 - - [24/May/2026 20:12:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:12:34,236 127.0.0.1 - - [24/May/2026 20:12:34] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=UOFzmEtqiLTKiKT4QH7q HTTP/1.1" 200 -
+ 2026-05-24 20:12:34,254 127.0.0.1 - - [24/May/2026 20:12:34] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:14:32,460  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-05-24 20:14:32,541  * Restarting with stat
+ 2026-05-24 20:14:32,717 Creating CatsAndDogs app
+ 2026-05-24 20:14:32,755  * Debugger is active!
+ 2026-05-24 20:14:32,770  * Debugger PIN: 836-164-441
+ 2026-05-24 20:14:52,433  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-05-24 20:14:52,560  * Restarting with stat
+ 2026-05-24 20:14:52,796 Creating CatsAndDogs app
+ 2026-05-24 20:14:52,834  * Debugger is active!
+ 2026-05-24 20:14:52,851  * Debugger PIN: 836-164-441
+ 2026-05-24 20:14:55,569 127.0.0.1 - - [24/May/2026 20:14:55] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-05-24 20:14:55,579 127.0.0.1 - - [24/May/2026 20:14:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-05-24 20:14:55,634 127.0.0.1 - - [24/May/2026 20:14:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-05-24 20:14:55,635 127.0.0.1 - - [24/May/2026 20:14:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-05-24 20:14:55,651 127.0.0.1 - - [24/May/2026 20:14:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ccUSBmq85YMIDts27fBq HTTP/1.1" 200 -
+ 2026-05-24 20:14:55,659 127.0.0.1 - - [24/May/2026 20:14:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-05-24 20:14:57,107 127.0.0.1 - - [24/May/2026 20:14:57] "GET /auth/login HTTP/1.1" 200 -
+ 2026-05-24 20:15:00,378 127.0.0.1 - - [24/May/2026 20:15:00] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-05-24 20:15:00,386 127.0.0.1 - - [24/May/2026 20:15:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-05-24 20:15:00,432 127.0.0.1 - - [24/May/2026 20:15:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:15:00,432 127.0.0.1 - - [24/May/2026 20:15:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:15:00,444 127.0.0.1 - - [24/May/2026 20:15:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=ccUSBmq85YMIDts27fBq HTTP/1.1[0m" 304 -
+ 2026-05-24 20:17:06,471  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 20:17:06,514  * Restarting with stat
+ 2026-05-24 20:17:06,676 Creating CatsAndDogs app
+ 2026-05-24 20:17:06,706  * Debugger is active!
+ 2026-05-24 20:17:06,724  * Debugger PIN: 836-164-441
+ 2026-05-24 20:19:16,022  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-05-24 20:19:16,090  * Restarting with stat
+ 2026-05-24 20:19:16,259 Creating CatsAndDogs app
+ 2026-05-24 20:19:16,292  * Debugger is active!
+ 2026-05-24 20:19:16,305  * Debugger PIN: 836-164-441
+ 2026-05-24 20:19:28,748  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-05-24 20:19:28,784  * Restarting with stat
+ 2026-05-24 20:19:28,924 Creating CatsAndDogs app
+ 2026-05-24 20:19:28,948  * Debugger is active!
+ 2026-05-24 20:19:28,963  * Debugger PIN: 836-164-441
+ 2026-05-24 20:20:28,988  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 20:20:29,040  * Restarting with stat
+ 2026-05-24 20:20:29,191 Creating CatsAndDogs app
+ 2026-05-24 20:20:29,217  * Debugger is active!
+ 2026-05-24 20:20:29,228  * Debugger PIN: 836-164-441
+ 2026-05-24 20:20:34,434  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-05-24 20:20:34,476  * Restarting with stat
+ 2026-05-24 20:20:34,577 Creating CatsAndDogs app
+ 2026-05-24 20:20:34,597  * Debugger is active!
+ 2026-05-24 20:20:34,605  * Debugger PIN: 836-164-441
+ 2026-05-24 20:20:58,907 127.0.0.1 - - [24/May/2026 20:20:58] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:15,640 Creating CatsAndDogs app
+ 2026-05-24 20:21:15,677 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 20:21:15,677 [33mPress CTRL+C to quit[0m
+ 2026-05-24 20:21:15,678  * Restarting with stat
+ 2026-05-24 20:21:15,783 Creating CatsAndDogs app
+ 2026-05-24 20:21:15,807  * Debugger is active!
+ 2026-05-24 20:21:15,819  * Debugger PIN: 836-164-441
+ 2026-05-24 20:21:18,560 127.0.0.1 - - [24/May/2026 20:21:18] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:19,244 127.0.0.1 - - [24/May/2026 20:21:19] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:19,842 127.0.0.1 - - [24/May/2026 20:21:19] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:22,997 127.0.0.1 - - [24/May/2026 20:21:22] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:25,841 127.0.0.1 - - [24/May/2026 20:21:25] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:21:38,963 Creating CatsAndDogs app
+ 2026-05-24 20:21:38,998 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 20:21:38,998 [33mPress CTRL+C to quit[0m
+ 2026-05-24 20:21:38,998  * Restarting with stat
+ 2026-05-24 20:21:39,096 Creating CatsAndDogs app
+ 2026-05-24 20:21:39,117  * Debugger is active!
+ 2026-05-24 20:21:39,129  * Debugger PIN: 836-164-441
+ 2026-05-24 20:23:31,925  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-05-24 20:23:31,993  * Restarting with stat
+ 2026-05-24 20:23:32,168 Creating CatsAndDogs app
+ 2026-05-24 20:23:32,208  * Debugger is active!
+ 2026-05-24 20:23:32,220  * Debugger PIN: 112-116-883
+ 2026-05-24 20:23:55,496 127.0.0.1 - - [24/May/2026 20:23:55] "[35m[1mGET /about HTTP/1.1[0m" 500 -
+ 2026-05-24 20:23:55,553 127.0.0.1 - - [24/May/2026 20:23:55] "GET /about?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-05-24 20:23:55,554 127.0.0.1 - - [24/May/2026 20:23:55] "GET /about?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-05-24 20:23:55,603 127.0.0.1 - - [24/May/2026 20:23:55] "GET /about?__debugger__=yes&cmd=resource&f=console.png&s=6FozJbbhQr4Z244m9NGJ HTTP/1.1" 200 -
+ 2026-05-24 20:23:55,635 127.0.0.1 - - [24/May/2026 20:23:55] "GET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-05-24 20:24:11,464  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-05-24 20:24:11,525  * Restarting with stat
+ 2026-05-24 20:24:11,740 Creating CatsAndDogs app
+ 2026-05-24 20:24:11,781  * Debugger is active!
+ 2026-05-24 20:24:11,793  * Debugger PIN: 836-164-441
+ 2026-05-24 20:24:12,872  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-05-24 20:24:12,909  * Restarting with stat
+ 2026-05-24 20:24:13,094 Creating CatsAndDogs app
+ 2026-05-24 20:24:13,123  * Debugger is active!
+ 2026-05-24 20:24:13,134  * Debugger PIN: 836-164-441
+ 2026-05-24 20:24:14,177 127.0.0.1 - - [24/May/2026 20:24:14] "[35m[1mGET /about HTTP/1.1[0m" 500 -
+ 2026-05-24 20:24:14,210 127.0.0.1 - - [24/May/2026 20:24:14] "[36mGET /about?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:24:14,212 127.0.0.1 - - [24/May/2026 20:24:14] "[36mGET /about?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:24:14,217 127.0.0.1 - - [24/May/2026 20:24:14] "GET /about?__debugger__=yes&cmd=resource&f=console.png&s=XnNg1JQYuGyNGo1IZgZ1 HTTP/1.1" 200 -
+ 2026-05-24 20:24:14,226 127.0.0.1 - - [24/May/2026 20:24:14] "[36mGET /about?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:25:45,034 127.0.0.1 - - [24/May/2026 20:25:45] "GET /about HTTP/1.1" 200 -
+ 2026-05-24 20:26:18,800 127.0.0.1 - - [24/May/2026 20:26:18] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:26:18,838 127.0.0.1 - - [24/May/2026 20:26:18] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:18,848 127.0.0.1 - - [24/May/2026 20:26:18] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:18,871 127.0.0.1 - - [24/May/2026 20:26:18] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=XnNg1JQYuGyNGo1IZgZ1 HTTP/1.1" 200 -
+ 2026-05-24 20:26:18,889 127.0.0.1 - - [24/May/2026 20:26:18] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:23,083 127.0.0.1 - - [24/May/2026 20:26:23] "GET /auth/login HTTP/1.1" 200 -
+ 2026-05-24 20:26:31,269 127.0.0.1 - - [24/May/2026 20:26:31] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+ 2026-05-24 20:26:31,292 127.0.0.1 - - [24/May/2026 20:26:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:31,293 127.0.0.1 - - [24/May/2026 20:26:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:31,299 127.0.0.1 - - [24/May/2026 20:26:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=XnNg1JQYuGyNGo1IZgZ1 HTTP/1.1[0m" 304 -
+ 2026-05-24 20:26:31,306 127.0.0.1 - - [24/May/2026 20:26:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-05-24 20:27:08,093  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-05-24 20:27:08,133  * Restarting with stat
+ 2026-05-24 20:27:08,302 Creating CatsAndDogs app
+ 2026-05-24 20:27:08,336  * Debugger is active!
+ 2026-05-24 20:27:08,350  * Debugger PIN: 836-164-441
+ 2026-05-24 20:27:10,435  * Detected change in '/Users/philipyaroshchyk/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-05-24 20:27:10,477  * Restarting with stat
+ 2026-05-24 20:27:10,593 Creating CatsAndDogs app
+ 2026-05-24 20:27:10,616  * Debugger is active!
+ 2026-05-24 20:27:10,627  * Debugger PIN: 836-164-441
+ 2026-05-24 20:27:17,604 127.0.0.1 - - [24/May/2026 20:27:17] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-05-24 20:27:17,608 127.0.0.1 - - [24/May/2026 20:27:17] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:28:26,321 127.0.0.1 - - [24/May/2026 20:28:26] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:28:31,923 127.0.0.1 - - [24/May/2026 20:28:31] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-05-24 20:28:31,927 127.0.0.1 - - [24/May/2026 20:28:31] "GET / HTTP/1.1" 200 -
