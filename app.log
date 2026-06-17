@@ -402,3 +402,311 @@
  2026-05-24 20:28:26,321 127.0.0.1 - - [24/May/2026 20:28:26] "GET / HTTP/1.1" 200 -
  2026-05-24 20:28:31,923 127.0.0.1 - - [24/May/2026 20:28:31] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
  2026-05-24 20:28:31,927 127.0.0.1 - - [24/May/2026 20:28:31] "GET / HTTP/1.1" 200 -
+ 2026-05-24 20:30:26,969 Creating CatsAndDogs app
+ 2026-05-24 20:30:27,010 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-05-24 20:30:27,010 [33mPress CTRL+C to quit[0m
+ 2026-05-24 20:30:27,011  * Restarting with stat
+ 2026-05-24 20:30:27,112 Creating CatsAndDogs app
+ 2026-05-24 20:30:27,133  * Debugger is active!
+ 2026-05-24 20:30:27,146  * Debugger PIN: 836-164-441
+ 2026-05-24 20:30:39,541 127.0.0.1 - - [24/May/2026 20:30:39] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:33:24,418 Creating CatsAndDogs app
+ 2026-06-17 20:36:16,993 Creating CatsAndDogs app
+ 2026-06-17 20:36:17,048 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 20:36:17,048 [33mPress CTRL+C to quit[0m
+ 2026-06-17 20:36:17,048  * Restarting with stat
+ 2026-06-17 20:36:17,113 Creating CatsAndDogs app
+ 2026-06-17 20:36:17,128  * Debugger is active!
+ 2026-06-17 20:36:17,139  * Debugger PIN: 376-512-187
+ 2026-06-17 20:36:41,012 127.0.0.1 - - [17/Jun/2026 20:36:41] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:36:41,211 127.0.0.1 - - [17/Jun/2026 20:36:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-06-17 20:36:57,317 127.0.0.1 - - [17/Jun/2026 20:36:57] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:36:57,764 127.0.0.1 - - [17/Jun/2026 20:36:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-06-17 20:38:48,801 127.0.0.1 - - [17/Jun/2026 20:38:48] "GET /about HTTP/1.1" 200 -
+ 2026-06-17 20:39:21,042 127.0.0.1 - - [17/Jun/2026 20:39:21] "[33mGET /login HTTP/1.1[0m" 404 -
+ 2026-06-17 20:39:36,121 127.0.0.1 - - [17/Jun/2026 20:39:36] "[33mGET /register HTTP/1.1[0m" 404 -
+ 2026-06-17 20:40:10,673 127.0.0.1 - - [17/Jun/2026 20:40:10] "[33mGET /register HTTP/1.1[0m" 404 -
+ 2026-06-17 20:40:18,903 127.0.0.1 - - [17/Jun/2026 20:40:18] "[33mGET /login HTTP/1.1[0m" 404 -
+ 2026-06-17 20:40:34,852 127.0.0.1 - - [17/Jun/2026 20:40:34] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 20:41:05,155 127.0.0.1 - - [17/Jun/2026 20:41:05] "POST /auth/login HTTP/1.1" 200 -
+ 2026-06-17 20:41:08,756 127.0.0.1 - - [17/Jun/2026 20:41:08] "POST /auth/login HTTP/1.1" 200 -
+ 2026-06-17 20:41:14,132 127.0.0.1 - - [17/Jun/2026 20:41:14] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-17 20:42:11,294 127.0.0.1 - - [17/Jun/2026 20:42:11] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+ 2026-06-17 20:42:11,295 127.0.0.1 - - [17/Jun/2026 20:42:11] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 20:42:16,886 127.0.0.1 - - [17/Jun/2026 20:42:16] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 20:42:16,890 127.0.0.1 - - [17/Jun/2026 20:42:16] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:43:46,774 127.0.0.1 - - [17/Jun/2026 20:43:46] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:45:03,058  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 20:45:03,087  * Restarting with stat
+ 2026-06-17 20:45:03,201 Creating CatsAndDogs app
+ 2026-06-17 20:45:03,224  * Debugger is active!
+ 2026-06-17 20:45:03,237  * Debugger PIN: 668-253-071
+ 2026-06-17 20:45:21,698  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 20:45:21,727  * Restarting with stat
+ 2026-06-17 20:45:21,832 Creating CatsAndDogs app
+ 2026-06-17 20:45:21,851  * Debugger is active!
+ 2026-06-17 20:45:21,859  * Debugger PIN: 376-512-187
+ 2026-06-17 20:46:10,195  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 20:46:10,225  * Restarting with stat
+ 2026-06-17 20:46:10,333 Creating CatsAndDogs app
+ 2026-06-17 20:46:10,354  * Debugger is active!
+ 2026-06-17 20:46:10,361  * Debugger PIN: 376-512-187
+ 2026-06-17 20:48:31,114 127.0.0.1 - - [17/Jun/2026 20:48:31] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:48:31,124 127.0.0.1 - - [17/Jun/2026 20:48:31] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:48:32,123 127.0.0.1 - - [17/Jun/2026 20:48:32] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:48:32,136 127.0.0.1 - - [17/Jun/2026 20:48:32] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:49:52,491 127.0.0.1 - - [17/Jun/2026 20:49:52] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:49:52,500 127.0.0.1 - - [17/Jun/2026 20:49:52] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:50:48,024  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 20:50:48,052  * Restarting with stat
+ 2026-06-17 20:50:48,162 Creating CatsAndDogs app
+ 2026-06-17 20:50:48,183  * Debugger is active!
+ 2026-06-17 20:50:48,191  * Debugger PIN: 376-512-187
+ 2026-06-17 20:50:55,669 127.0.0.1 - - [17/Jun/2026 20:50:55] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:50:55,679 127.0.0.1 - - [17/Jun/2026 20:50:55] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:50:56,410 127.0.0.1 - - [17/Jun/2026 20:50:56] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:50:56,425 127.0.0.1 - - [17/Jun/2026 20:50:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:52:14,609  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 20:52:14,640  * Restarting with stat
+ 2026-06-17 20:52:14,753 Creating CatsAndDogs app
+ 2026-06-17 20:52:14,774  * Debugger is active!
+ 2026-06-17 20:52:14,783  * Debugger PIN: 376-512-187
+ 2026-06-17 20:52:46,252 127.0.0.1 - - [17/Jun/2026 20:52:46] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:52:46,261 127.0.0.1 - - [17/Jun/2026 20:52:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:52:46,993 127.0.0.1 - - [17/Jun/2026 20:52:46] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:52:47,006 127.0.0.1 - - [17/Jun/2026 20:52:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:52:47,668 127.0.0.1 - - [17/Jun/2026 20:52:47] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:52:47,681 127.0.0.1 - - [17/Jun/2026 20:52:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:52:49,872 127.0.0.1 - - [17/Jun/2026 20:52:49] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:52:49,884 127.0.0.1 - - [17/Jun/2026 20:52:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:53:05,122 Creating CatsAndDogs app
+ 2026-06-17 20:53:07,365 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 20:53:07,365 [33mPress CTRL+C to quit[0m
+ 2026-06-17 20:53:07,366  * Restarting with stat
+ 2026-06-17 20:53:07,457 Creating CatsAndDogs app
+ 2026-06-17 20:53:07,474  * Debugger is active!
+ 2026-06-17 20:53:07,481  * Debugger PIN: 376-512-187
+ 2026-06-17 20:53:09,592 127.0.0.1 - - [17/Jun/2026 20:53:09] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:53:09,603 127.0.0.1 - - [17/Jun/2026 20:53:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:53:10,407 127.0.0.1 - - [17/Jun/2026 20:53:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:53:10,422 127.0.0.1 - - [17/Jun/2026 20:53:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:53:10,663 127.0.0.1 - - [17/Jun/2026 20:53:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:53:10,675 127.0.0.1 - - [17/Jun/2026 20:53:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:54:35,862 127.0.0.1 - - [17/Jun/2026 20:54:35] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:54:35,876 127.0.0.1 - - [17/Jun/2026 20:54:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:54:35,887 127.0.0.1 - - [17/Jun/2026 20:54:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-06-17 20:54:37,709 127.0.0.1 - - [17/Jun/2026 20:54:37] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:54:37,721 127.0.0.1 - - [17/Jun/2026 20:54:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:54:39,660 127.0.0.1 - - [17/Jun/2026 20:54:39] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 20:54:44,421 127.0.0.1 - - [17/Jun/2026 20:54:44] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 20:54:44,425 127.0.0.1 - - [17/Jun/2026 20:54:44] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:54:44,437 127.0.0.1 - - [17/Jun/2026 20:54:44] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:55:12,868 127.0.0.1 - - [17/Jun/2026 20:55:12] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:12,878 127.0.0.1 - - [17/Jun/2026 20:55:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:55:13,483 127.0.0.1 - - [17/Jun/2026 20:55:13] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:13,495 127.0.0.1 - - [17/Jun/2026 20:55:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 20:55:34,423 127.0.0.1 - - [17/Jun/2026 20:55:34] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:35,099 127.0.0.1 - - [17/Jun/2026 20:55:35] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:35,894 127.0.0.1 - - [17/Jun/2026 20:55:35] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:48,765 127.0.0.1 - - [17/Jun/2026 20:55:48] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:49,396 127.0.0.1 - - [17/Jun/2026 20:55:49] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:55:55,334 127.0.0.1 - - [17/Jun/2026 20:55:55] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:07,076 127.0.0.1 - - [17/Jun/2026 20:56:07] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:07,518 127.0.0.1 - - [17/Jun/2026 20:56:07] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:09,960 127.0.0.1 - - [17/Jun/2026 20:56:09] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:10,455 127.0.0.1 - - [17/Jun/2026 20:56:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:10,666 127.0.0.1 - - [17/Jun/2026 20:56:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:11,355 127.0.0.1 - - [17/Jun/2026 20:56:11] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:56:52,262 127.0.0.1 - - [17/Jun/2026 20:56:52] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 20:56:52,267 127.0.0.1 - - [17/Jun/2026 20:56:52] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:57:09,631 127.0.0.1 - - [17/Jun/2026 20:57:09] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:57:10,368 127.0.0.1 - - [17/Jun/2026 20:57:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:57:33,344 127.0.0.1 - - [17/Jun/2026 20:57:33] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:57:33,966 127.0.0.1 - - [17/Jun/2026 20:57:33] "GET / HTTP/1.1" 200 -
+ 2026-06-17 20:57:44,144 127.0.0.1 - - [17/Jun/2026 20:57:44] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:00:53,367 127.0.0.1 - - [17/Jun/2026 21:00:53] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:00:53,377 127.0.0.1 - - [17/Jun/2026 21:00:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:00:54,247 127.0.0.1 - - [17/Jun/2026 21:00:54] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:00:54,259 127.0.0.1 - - [17/Jun/2026 21:00:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:02:25,171 127.0.0.1 - - [17/Jun/2026 21:02:25] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:02:25,183 127.0.0.1 - - [17/Jun/2026 21:02:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:02:25,913 127.0.0.1 - - [17/Jun/2026 21:02:25] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:02:25,922 127.0.0.1 - - [17/Jun/2026 21:02:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:03:06,193 127.0.0.1 - - [17/Jun/2026 21:03:06] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:03:06,206 127.0.0.1 - - [17/Jun/2026 21:03:06] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:04:09,564 127.0.0.1 - - [17/Jun/2026 21:04:09] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:04:09,571 127.0.0.1 - - [17/Jun/2026 21:04:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:04:10,304 127.0.0.1 - - [17/Jun/2026 21:04:10] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:04:10,317 127.0.0.1 - - [17/Jun/2026 21:04:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:04:11,719  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:04:11,752  * Restarting with stat
+ 2026-06-17 21:04:11,868 Creating CatsAndDogs app
+ 2026-06-17 21:04:11,891  * Debugger is active!
+ 2026-06-17 21:04:11,901  * Debugger PIN: 376-512-187
+ 2026-06-17 21:04:29,400  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:04:29,417  * Restarting with stat
+ 2026-06-17 21:04:29,518 Creating CatsAndDogs app
+ 2026-06-17 21:04:29,537  * Debugger is active!
+ 2026-06-17 21:04:29,545  * Debugger PIN: 376-512-187
+ 2026-06-17 21:04:30,927 127.0.0.1 - - [17/Jun/2026 21:04:30] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:04:30,937 127.0.0.1 - - [17/Jun/2026 21:04:30] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:04:34,850 127.0.0.1 - - [17/Jun/2026 21:04:34] "[35m[1mGET /auth/logout HTTP/1.1[0m" 500 -
+ 2026-06-17 21:04:34,869 127.0.0.1 - - [17/Jun/2026 21:04:34] "GET /auth/logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-17 21:04:34,869 127.0.0.1 - - [17/Jun/2026 21:04:34] "GET /auth/logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-17 21:04:34,884 127.0.0.1 - - [17/Jun/2026 21:04:34] "GET /auth/logout?__debugger__=yes&cmd=resource&f=console.png&s=8Rb7UkK9k7g3Fu7Uikgl HTTP/1.1" 200 -
+ 2026-06-17 21:04:34,887 127.0.0.1 - - [17/Jun/2026 21:04:34] "GET /auth/logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-17 21:04:49,105  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:04:49,135  * Restarting with stat
+ 2026-06-17 21:04:49,256 Creating CatsAndDogs app
+ 2026-06-17 21:04:49,281  * Debugger is active!
+ 2026-06-17 21:04:49,290  * Debugger PIN: 376-512-187
+ 2026-06-17 21:04:56,576 127.0.0.1 - - [17/Jun/2026 21:04:56] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:04:56,582 127.0.0.1 - - [17/Jun/2026 21:04:56] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:04:56,588 127.0.0.1 - - [17/Jun/2026 21:04:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:05:01,137 127.0.0.1 - - [17/Jun/2026 21:05:01] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:05:01,153 127.0.0.1 - - [17/Jun/2026 21:05:01] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:05:02,459 127.0.0.1 - - [17/Jun/2026 21:05:02] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:05:07,378 127.0.0.1 - - [17/Jun/2026 21:05:07] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:05:07,381 127.0.0.1 - - [17/Jun/2026 21:05:07] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:05:07,392 127.0.0.1 - - [17/Jun/2026 21:05:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:05:08,785 127.0.0.1 - - [17/Jun/2026 21:05:08] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:05:08,788 127.0.0.1 - - [17/Jun/2026 21:05:08] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:05:08,804 127.0.0.1 - - [17/Jun/2026 21:05:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:06:42,882 127.0.0.1 - - [17/Jun/2026 21:06:42] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:06:46,322 127.0.0.1 - - [17/Jun/2026 21:06:46] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:06:46,326 127.0.0.1 - - [17/Jun/2026 21:06:46] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:06:46,338 127.0.0.1 - - [17/Jun/2026 21:06:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:07:16,328  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-17 21:07:16,349  * Restarting with stat
+ 2026-06-17 21:07:16,484 Creating CatsAndDogs app
+ 2026-06-17 21:07:16,509  * Debugger is active!
+ 2026-06-17 21:07:16,522  * Debugger PIN: 376-512-187
+ 2026-06-17 21:07:46,224 127.0.0.1 - - [17/Jun/2026 21:07:46] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:07:46,235 127.0.0.1 - - [17/Jun/2026 21:07:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:07:47,187 127.0.0.1 - - [17/Jun/2026 21:07:47] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:07:47,194 127.0.0.1 - - [17/Jun/2026 21:07:47] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:07:48,900 127.0.0.1 - - [17/Jun/2026 21:07:48] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:07:48,903 127.0.0.1 - - [17/Jun/2026 21:07:48] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:07:48,908 127.0.0.1 - - [17/Jun/2026 21:07:48] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:07:54,377 127.0.0.1 - - [17/Jun/2026 21:07:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:07:54,380 127.0.0.1 - - [17/Jun/2026 21:07:54] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:07:54,391 127.0.0.1 - - [17/Jun/2026 21:07:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:08:18,636 127.0.0.1 - - [17/Jun/2026 21:08:18] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:08:18,648 127.0.0.1 - - [17/Jun/2026 21:08:18] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:09:44,461  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:09:44,492  * Restarting with stat
+ 2026-06-17 21:09:44,604 Creating CatsAndDogs app
+ 2026-06-17 21:09:44,625  * Debugger is active!
+ 2026-06-17 21:09:44,634  * Debugger PIN: 376-512-187
+ 2026-06-17 21:09:49,445 127.0.0.1 - - [17/Jun/2026 21:09:49] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:09:49,454 127.0.0.1 - - [17/Jun/2026 21:09:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:09:50,032 127.0.0.1 - - [17/Jun/2026 21:09:50] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:09:50,045 127.0.0.1 - - [17/Jun/2026 21:09:50] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:09:51,229 127.0.0.1 - - [17/Jun/2026 21:09:51] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:09:51,232 127.0.0.1 - - [17/Jun/2026 21:09:51] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:09:51,238 127.0.0.1 - - [17/Jun/2026 21:09:51] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:09:54,721 127.0.0.1 - - [17/Jun/2026 21:09:54] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+ 2026-06-17 21:09:54,741 127.0.0.1 - - [17/Jun/2026 21:09:54] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-17 21:09:54,741 127.0.0.1 - - [17/Jun/2026 21:09:54] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-17 21:09:54,750 127.0.0.1 - - [17/Jun/2026 21:09:54] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=XQHh85HuMTVBZ6V7TaSH HTTP/1.1" 200 -
+ 2026-06-17 21:09:54,754 127.0.0.1 - - [17/Jun/2026 21:09:54] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-17 21:10:01,089  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:10:01,116  * Restarting with stat
+ 2026-06-17 21:10:01,212 Creating CatsAndDogs app
+ 2026-06-17 21:10:01,228  * Debugger is active!
+ 2026-06-17 21:10:01,235  * Debugger PIN: 376-512-187
+ 2026-06-17 21:10:03,267 127.0.0.1 - - [17/Jun/2026 21:10:03] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+ 2026-06-17 21:10:03,284 127.0.0.1 - - [17/Jun/2026 21:10:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-17 21:10:03,285 127.0.0.1 - - [17/Jun/2026 21:10:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-17 21:10:03,290 127.0.0.1 - - [17/Jun/2026 21:10:03] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=SfzSp670o5v5twGBZhnz HTTP/1.1" 200 -
+ 2026-06-17 21:10:03,293 127.0.0.1 - - [17/Jun/2026 21:10:03] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-06-17 21:10:33,115  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-17 21:10:33,140  * Restarting with stat
+ 2026-06-17 21:10:33,220 Creating CatsAndDogs app
+ 2026-06-17 21:10:33,237  * Debugger is active!
+ 2026-06-17 21:10:33,245  * Debugger PIN: 376-512-187
+ 2026-06-17 21:10:35,066 127.0.0.1 - - [17/Jun/2026 21:10:35] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:10:35,076 127.0.0.1 - - [17/Jun/2026 21:10:35] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:10:35,085 127.0.0.1 - - [17/Jun/2026 21:10:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:10:37,008 127.0.0.1 - - [17/Jun/2026 21:10:37] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:10:37,011 127.0.0.1 - - [17/Jun/2026 21:10:37] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:10:37,014 127.0.0.1 - - [17/Jun/2026 21:10:37] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:10:40,560 127.0.0.1 - - [17/Jun/2026 21:10:40] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:10:40,562 127.0.0.1 - - [17/Jun/2026 21:10:40] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:10:40,568 127.0.0.1 - - [17/Jun/2026 21:10:40] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:10:59,958 Creating CatsAndDogs app
+ 2026-06-17 21:10:59,990 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 21:10:59,990 [33mPress CTRL+C to quit[0m
+ 2026-06-17 21:10:59,990  * Restarting with stat
+ 2026-06-17 21:11:00,078 Creating CatsAndDogs app
+ 2026-06-17 21:11:00,093  * Debugger is active!
+ 2026-06-17 21:11:00,100  * Debugger PIN: 376-512-187
+ 2026-06-17 21:11:01,902 127.0.0.1 - - [17/Jun/2026 21:11:01] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:11:01,904 127.0.0.1 - - [17/Jun/2026 21:11:01] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:11:01,909 127.0.0.1 - - [17/Jun/2026 21:11:01] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:11:04,917 127.0.0.1 - - [17/Jun/2026 21:11:04] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:11:04,925 127.0.0.1 - - [17/Jun/2026 21:11:04] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:11:04,938 127.0.0.1 - - [17/Jun/2026 21:11:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:16:09,918  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-17 21:16:09,946  * Restarting with stat
+ 2026-06-17 21:16:10,057 Creating CatsAndDogs app
+ 2026-06-17 21:16:10,077  * Debugger is active!
+ 2026-06-17 21:16:10,085  * Debugger PIN: 376-512-187
+ 2026-06-17 21:25:22,085 127.0.0.1 - - [17/Jun/2026 21:25:22] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:25:22,088 127.0.0.1 - - [17/Jun/2026 21:25:22] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:25:22,093 127.0.0.1 - - [17/Jun/2026 21:25:22] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:25:25,849 127.0.0.1 - - [17/Jun/2026 21:25:25] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:25:25,857 127.0.0.1 - - [17/Jun/2026 21:25:25] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:25:25,869 127.0.0.1 - - [17/Jun/2026 21:25:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:30:20,706 127.0.0.1 - - [17/Jun/2026 21:30:20] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:30:20,708 127.0.0.1 - - [17/Jun/2026 21:30:20] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:30:20,709 127.0.0.1 - - [17/Jun/2026 21:30:20] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:30:25,356 127.0.0.1 - - [17/Jun/2026 21:30:25] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:30:25,360 127.0.0.1 - - [17/Jun/2026 21:30:25] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:30:25,370 127.0.0.1 - - [17/Jun/2026 21:30:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:39:22,074 Creating CatsAndDogs app
+ 2026-06-17 21:39:22,100 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 21:39:22,100 [33mPress CTRL+C to quit[0m
+ 2026-06-17 21:39:22,101  * Restarting with stat
+ 2026-06-17 21:39:22,177 Creating CatsAndDogs app
+ 2026-06-17 21:39:22,192  * Debugger is active!
+ 2026-06-17 21:39:22,199  * Debugger PIN: 376-512-187
+ 2026-06-17 21:39:42,594 127.0.0.1 - - [17/Jun/2026 21:39:42] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:39:42,600 127.0.0.1 - - [17/Jun/2026 21:39:42] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:39:42,653 127.0.0.1 - - [17/Jun/2026 21:39:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-06-17 21:40:08,618 127.0.0.1 - - [17/Jun/2026 21:40:08] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:40:08,623 127.0.0.1 - - [17/Jun/2026 21:40:08] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:40:08,634 127.0.0.1 - - [17/Jun/2026 21:40:08] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:40:32,735 127.0.0.1 - - [17/Jun/2026 21:40:32] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:40:32,744 127.0.0.1 - - [17/Jun/2026 21:40:32] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:41:13,175 Creating CatsAndDogs app
+ 2026-06-17 21:41:17,741 Creating CatsAndDogs app
+ 2026-06-17 21:41:17,761 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 21:41:17,761 [33mPress CTRL+C to quit[0m
+ 2026-06-17 21:41:17,761  * Restarting with stat
+ 2026-06-17 21:41:17,824 Creating CatsAndDogs app
+ 2026-06-17 21:41:17,839  * Debugger is active!
+ 2026-06-17 21:41:17,846  * Debugger PIN: 376-512-187
+ 2026-06-17 21:41:24,158 127.0.0.1 - - [17/Jun/2026 21:41:24] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:41:24,167 127.0.0.1 - - [17/Jun/2026 21:41:24] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:41:25,113 127.0.0.1 - - [17/Jun/2026 21:41:25] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:41:25,115 127.0.0.1 - - [17/Jun/2026 21:41:25] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:41:25,118 127.0.0.1 - - [17/Jun/2026 21:41:25] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:41:28,274 127.0.0.1 - - [17/Jun/2026 21:41:28] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:41:28,277 127.0.0.1 - - [17/Jun/2026 21:41:28] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:41:28,289 127.0.0.1 - - [17/Jun/2026 21:41:28] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:44:33,723 127.0.0.1 - - [17/Jun/2026 21:44:33] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:44:33,725 127.0.0.1 - - [17/Jun/2026 21:44:33] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:44:39,425 127.0.0.1 - - [17/Jun/2026 21:44:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 21:44:39,429 127.0.0.1 - - [17/Jun/2026 21:44:39] "GET / HTTP/1.1" 200 -
+ 2026-06-17 21:44:39,439 127.0.0.1 - - [17/Jun/2026 21:44:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 21:44:40,637 127.0.0.1 - - [17/Jun/2026 21:44:40] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 21:44:40,640 127.0.0.1 - - [17/Jun/2026 21:44:40] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 21:44:40,642 127.0.0.1 - - [17/Jun/2026 21:44:40] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 21:44:46,254 127.0.0.1 - - [17/Jun/2026 21:44:46] "GET /auth/register HTTP/1.1" 200 -

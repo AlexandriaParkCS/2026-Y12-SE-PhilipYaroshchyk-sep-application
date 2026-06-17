@@ -12,10 +12,12 @@ from werkzeug.security import check_password_hash
 from werkzeug.security import generate_password_hash
 
 from .db import get_db
+from . import auth
 
 bp = Blueprint("home", __name__, url_prefix="")
 
 @bp.route("/", methods=("GET", "POST"))
+@auth.login_required
 def index():
     return render_template("index.html")
 

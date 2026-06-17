@@ -1,1 +1,11 @@
-this is base page for now
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}home page{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <div>
+    home page html placeholder
+  </div>
+{% endblock %}
