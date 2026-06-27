@@ -1,0 +1,16 @@
+html { font-family: sans-serif; background: #eee; padding: 1rem; }
+body { max-width: 960px; margin: 0 auto; background: white; padding: 1rem; }
+
+nav { background: #3779ff; padding: 0.5rem 1rem; }
+nav h1 { color: white; display: inline; font-size: 1.5rem; margin: 0; }
+nav ul { display: inline; list-style: none; float: right; margin: 0; padding: 0; }
+nav ul li { display: inline; margin-left: 1rem; }
+nav ul li a, nav ul li span { color: white; text-decoration: none; }
+
+.content { padding: 1rem 0; }
+
+ul.pets { list-style: none; padding: 0; }
+ul.pets li { padding: 0.5rem; border-bottom: 1px solid #ddd; }
+
+form label { display: block; margin-top: 0.5rem; }
+form input { display: block; margin-bottom: 0.5rem; }

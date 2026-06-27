@@ -1,11 +1,56 @@
 {% extends 'base.html' %}
 
 {% block header %}
-  <h1>{% block title %}home page{% endblock %}</h1>
+  <h1>{% block title %}Home page{% endblock %}</h1>
 {% endblock %}
 
 {% block content %}
-  <div>
-    home page html placeholder
+
+  <div class="user-info">
+    <p>Username: {{ g.user['username'] }}</p>
+
+    <form method="post" action="{{ url_for('home.upload_photo') }}" enctype="multipart/form-data">
+      {% if g.user['photo'] %}
+        <img src="{{ g.user['photo'] }}" alt="Profile photo" width="120">
+      {% endif %}
+      <label for="photo">Photo</label>
+      <input type="file" name="photo" id="photo" accept="image/png,image/jpeg,image/gif">
+      <input type="submit" value="Upload photo">
+    </form>
+
+    <form method="post" action="{{ url_for('home.update_profile') }}">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" value="{{ g.user['email'] }}" required>
+
+      <label for="user_type">User type</label>
+      <select name="user_type" id="user_type">
+        <option value="owner" {% if not g.user['is_sitter'] %}selected{% endif %}>Pet Owner</option>
+        <option value="sitter" {% if g.user['is_sitter'] %}selected{% endif %}>Pet Sitter</option>
+      </select>
+
+      <label for="postcode">Postcode</label>
+      <input name="postcode" id="postcode" value="{{ g.user['postcode'] or '' }}">
+
+      <label for="about">About</label>
+      <textarea name="about" id="about">{{ g.user['about'] or '' }}</textarea>
+
+      <input type="submit" value="Update profile">
+    </form>
   </div>
+
+  <ul class="pets">
+    {% for pet in g.pets %}
+      <li>{{ pet['name'] }} ({{ pet['species'] }}, {{ pet['breed'] }}) - born {{ pet['yob'] }} <button type="button" onclick="location.href='{{ url_for('home.pet_details', pet_id=pet['id']) }}'">Details</button></li>
+    {% else %}
+      <li>No pets yet.</li>
+    {% endfor %}
+  </ul>
+
+  <form method="post" action="{{ url_for('home.add_pet') }}">
+    <label for="name">Name</label><input name="name" id="name" required>
+    <label for="species">Species</label><input name="species" id="species" required>
+    <label for="breed">Breed</label><input name="breed" id="breed" required>
+    <label for="yob">Year of Birth</label><input name="yob" id="yob" type="number" required>
+    <input type="submit" value="Add">
+  </form>
 {% endblock %}

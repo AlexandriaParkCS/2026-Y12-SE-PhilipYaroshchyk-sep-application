@@ -18,7 +18,9 @@ def create_app(test_config=None):
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
-        DATABASE=os.path.join(app.instance_path, 'database.db')
+        DATABASE=os.path.join(app.instance_path, 'database.db'),
+        UPLOAD_FOLDER=os.path.join(app.static_folder, 'uploads'),
+        MAX_CONTENT_LENGTH=5 * 1024 * 1024
     )
 
     app.logger.info("Creating CatsAndDogs app")
@@ -43,6 +45,9 @@ def create_app(test_config=None):
 
     # ensure the instance folder exists
     os.makedirs(app.instance_path, exist_ok=True)
+
+    # ensure the upload folder exists
+    os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
     # a simple page that can be used to test that the application is working
     @app.route('/ping')

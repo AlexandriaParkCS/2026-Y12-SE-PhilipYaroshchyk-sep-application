@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}{{ pet['name'] }}{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  
+    <!-- details section -->
+
+  <ul class="pet-detail">
+    <li><strong>Name:</strong> {{ pet['name'] }}</li>
+    <li><strong>Species:</strong> {{ pet['species'] }}</li>
+    <li><strong>Breed:</strong> {{ pet['breed'] }}</li>
+    <li><strong>Year of birth:</strong> {{ pet['yob'] }}</li>
+  </ul>
+
+  <!-- care details -->
+
+  <h2>Care types</h2>
+  <ul class="care-types">
+    {% for care_type in care_types %}
+      <li>
+        <strong>{{ care_type['name'] }}</strong> - {{ care_type['schedule'] }}
+        {% if care_type['description'] %}<p>{{ care_type['description'] }}</p>{% endif %}
+      </li>
+    {% else %}
+      <li>No care types added yet.</li>
+    {% endfor %}
+  </ul>
+
+
+  <form method="post" action="{{ url_for('home.add_care_details') }}">
+    <h3>Add a new care type</h3>
+    <label for="name">Type of Care</label><input name="name" id="name" required>
+    <label for="schedule">Schedule</label><input name="schedule" id="schedule" required>
+    <label for="description">Description</label><textarea name="description" id="description"></textarea>
+    <input type="hidden" name="pet_id" value="{{ pet['id'] }}">
+    <input type="submit" value="Add">
+
+
+  </form>
+
+  <a href="{{ url_for('home.index') }}">Back to home page</a>
+
+{% endblock %}
+

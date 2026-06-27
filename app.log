@@ -710,3 +710,673 @@
  2026-06-17 21:44:40,640 127.0.0.1 - - [17/Jun/2026 21:44:40] "[32mGET / HTTP/1.1[0m" 302 -
  2026-06-17 21:44:40,642 127.0.0.1 - - [17/Jun/2026 21:44:40] "GET /auth/login HTTP/1.1" 200 -
  2026-06-17 21:44:46,254 127.0.0.1 - - [17/Jun/2026 21:44:46] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-17 22:01:32,090 Creating CatsAndDogs app
+ 2026-06-17 22:01:32,111 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-17 22:01:32,111 [33mPress CTRL+C to quit[0m
+ 2026-06-17 22:01:32,112  * Restarting with stat
+ 2026-06-17 22:01:32,179 Creating CatsAndDogs app
+ 2026-06-17 22:01:32,194  * Debugger is active!
+ 2026-06-17 22:01:32,201  * Debugger PIN: 376-512-187
+ 2026-06-17 22:01:53,445 127.0.0.1 - - [17/Jun/2026 22:01:53] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:01:53,450 127.0.0.1 - - [17/Jun/2026 22:01:53] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:01:57,739 127.0.0.1 - - [17/Jun/2026 22:01:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 22:01:57,745 127.0.0.1 - - [17/Jun/2026 22:01:57] "GET / HTTP/1.1" 200 -
+ 2026-06-17 22:01:57,750 127.0.0.1 - - [17/Jun/2026 22:01:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:01:57,756 127.0.0.1 - - [17/Jun/2026 22:01:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:01:59,241 127.0.0.1 - - [17/Jun/2026 22:01:59] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 22:01:59,242 127.0.0.1 - - [17/Jun/2026 22:01:59] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:01:59,244 127.0.0.1 - - [17/Jun/2026 22:01:59] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:02:07,328 127.0.0.1 - - [17/Jun/2026 22:02:07] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:02:07,331 127.0.0.1 - - [17/Jun/2026 22:02:07] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:02:11,599 127.0.0.1 - - [17/Jun/2026 22:02:11] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 22:02:11,600 127.0.0.1 - - [17/Jun/2026 22:02:11] "GET / HTTP/1.1" 200 -
+ 2026-06-17 22:02:11,605 127.0.0.1 - - [17/Jun/2026 22:02:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:02:11,609 127.0.0.1 - - [17/Jun/2026 22:02:11] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:02:19,025 127.0.0.1 - - [17/Jun/2026 22:02:19] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 22:02:19,027 127.0.0.1 - - [17/Jun/2026 22:02:19] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:02:19,028 127.0.0.1 - - [17/Jun/2026 22:02:19] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:02:56,185 127.0.0.1 - - [17/Jun/2026 22:02:56] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:02:56,187 127.0.0.1 - - [17/Jun/2026 22:02:56] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:03:00,021 127.0.0.1 - - [17/Jun/2026 22:03:00] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 22:03:00,022 127.0.0.1 - - [17/Jun/2026 22:03:00] "GET / HTTP/1.1" 200 -
+ 2026-06-17 22:03:00,027 127.0.0.1 - - [17/Jun/2026 22:03:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:03:00,038 127.0.0.1 - - [17/Jun/2026 22:03:00] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:03:03,157 127.0.0.1 - - [17/Jun/2026 22:03:03] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 22:03:03,158 127.0.0.1 - - [17/Jun/2026 22:03:03] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:03:03,160 127.0.0.1 - - [17/Jun/2026 22:03:03] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:05:58,731 127.0.0.1 - - [17/Jun/2026 22:05:58] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:05:58,733 127.0.0.1 - - [17/Jun/2026 22:05:58] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-17 22:06:03,132 127.0.0.1 - - [17/Jun/2026 22:06:03] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-17 22:06:03,135 127.0.0.1 - - [17/Jun/2026 22:06:03] "GET / HTTP/1.1" 200 -
+ 2026-06-17 22:06:03,145 127.0.0.1 - - [17/Jun/2026 22:06:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-17 22:06:06,205 127.0.0.1 - - [17/Jun/2026 22:06:06] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-17 22:06:06,207 127.0.0.1 - - [17/Jun/2026 22:06:06] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-17 22:06:06,208 127.0.0.1 - - [17/Jun/2026 22:06:06] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 11:37:42,653 Creating CatsAndDogs app
+ 2026-06-27 11:37:49,607 Creating CatsAndDogs app
+ 2026-06-27 11:37:49,645 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 11:37:49,645 [33mPress CTRL+C to quit[0m
+ 2026-06-27 11:37:49,645  * Restarting with stat
+ 2026-06-27 11:37:49,711 Creating CatsAndDogs app
+ 2026-06-27 11:37:49,729  * Debugger is active!
+ 2026-06-27 11:37:49,738  * Debugger PIN: 106-781-810
+ 2026-06-27 11:56:40,896 127.0.0.1 - - [27/Jun/2026 11:56:40] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 11:57:33,028 127.0.0.1 - - [27/Jun/2026 11:57:33] "POST /auth/login HTTP/1.1" 200 -
+ 2026-06-27 11:58:26,785 127.0.0.1 - - [27/Jun/2026 11:58:26] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 12:06:32,565 127.0.0.1 - - [27/Jun/2026 12:06:32] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 12:06:41,038 127.0.0.1 - - [27/Jun/2026 12:06:41] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 12:07:23,812 127.0.0.1 - - [27/Jun/2026 12:07:23] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+ 2026-06-27 12:07:23,813 127.0.0.1 - - [27/Jun/2026 12:07:23] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 12:07:34,918 127.0.0.1 - - [27/Jun/2026 12:07:34] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 12:07:34,925 127.0.0.1 - - [27/Jun/2026 12:07:34] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:07:34,930 127.0.0.1 - - [27/Jun/2026 12:07:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:07:34,935 127.0.0.1 - - [27/Jun/2026 12:07:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:21:43,548 Creating CatsAndDogs app
+ 2026-06-27 12:22:38,485 Creating CatsAndDogs app
+ 2026-06-27 12:26:25,636 Creating CatsAndDogs app
+ 2026-06-27 12:26:47,895 Creating CatsAndDogs app
+ 2026-06-27 12:27:39,369 Creating CatsAndDogs app
+ 2026-06-27 12:28:21,838 Creating CatsAndDogs app
+ 2026-06-27 12:28:21,864 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 12:28:21,864 [33mPress CTRL+C to quit[0m
+ 2026-06-27 12:28:21,865  * Restarting with stat
+ 2026-06-27 12:28:21,930 Creating CatsAndDogs app
+ 2026-06-27 12:28:21,947  * Debugger is active!
+ 2026-06-27 12:28:21,956  * Debugger PIN: 106-781-810
+ 2026-06-27 12:29:29,288 127.0.0.1 - - [27/Jun/2026 12:29:29] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:29:29,328 127.0.0.1 - - [27/Jun/2026 12:29:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:29:29,345 127.0.0.1 - - [27/Jun/2026 12:29:29] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:31:12,382 127.0.0.1 - - [27/Jun/2026 12:31:12] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:31:12,392 127.0.0.1 - - [27/Jun/2026 12:31:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:31:12,397 127.0.0.1 - - [27/Jun/2026 12:31:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:42:44,363  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 12:42:44,397  * Restarting with stat
+ 2026-06-27 12:42:44,503 Creating CatsAndDogs app
+ 2026-06-27 12:42:44,525  * Debugger is active!
+ 2026-06-27 12:42:44,533  * Debugger PIN: 102-498-385
+ 2026-06-27 12:43:13,692 127.0.0.1 - - [27/Jun/2026 12:43:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 12:43:13,706 127.0.0.1 - - [27/Jun/2026 12:43:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-27 12:43:13,707 127.0.0.1 - - [27/Jun/2026 12:43:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-27 12:43:13,722 127.0.0.1 - - [27/Jun/2026 12:43:13] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=M6mFezrxwYCt9I6ikL3n HTTP/1.1" 200 -
+ 2026-06-27 12:43:13,725 127.0.0.1 - - [27/Jun/2026 12:43:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-27 12:44:42,504  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 12:44:42,526  * Restarting with stat
+ 2026-06-27 12:44:42,645 Creating CatsAndDogs app
+ 2026-06-27 12:44:42,671  * Debugger is active!
+ 2026-06-27 12:44:42,681  * Debugger PIN: 102-498-385
+ 2026-06-27 12:44:59,787 127.0.0.1 - - [27/Jun/2026 12:44:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 12:44:59,802 127.0.0.1 - - [27/Jun/2026 12:44:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 12:44:59,802 127.0.0.1 - - [27/Jun/2026 12:44:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-27 12:44:59,808 127.0.0.1 - - [27/Jun/2026 12:44:59] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=16F4325JCp1zYjUQWlJQ HTTP/1.1" 200 -
+ 2026-06-27 12:45:00,688 127.0.0.1 - - [27/Jun/2026 12:45:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 12:45:00,699 127.0.0.1 - - [27/Jun/2026 12:45:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-27 12:45:00,699 127.0.0.1 - - [27/Jun/2026 12:45:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 12:45:00,705 127.0.0.1 - - [27/Jun/2026 12:45:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=16F4325JCp1zYjUQWlJQ HTTP/1.1[0m" 304 -
+ 2026-06-27 12:45:58,691  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 12:45:58,714  * Restarting with stat
+ 2026-06-27 12:45:58,824 Creating CatsAndDogs app
+ 2026-06-27 12:45:58,844  * Debugger is active!
+ 2026-06-27 12:45:58,851  * Debugger PIN: 106-781-810
+ 2026-06-27 12:46:23,846 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:23,854 127.0.0.1 - - [27/Jun/2026 12:46:23] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:23,863 127.0.0.1 - - [27/Jun/2026 12:46:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:23,871 127.0.0.1 - - [27/Jun/2026 12:46:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:25,119 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:25,119 127.0.0.1 - - [27/Jun/2026 12:46:25] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:25,130 127.0.0.1 - - [27/Jun/2026 12:46:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:25,135 127.0.0.1 - - [27/Jun/2026 12:46:25] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:28,705  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 12:46:28,722  * Restarting with stat
+ 2026-06-27 12:46:28,829 Creating CatsAndDogs app
+ 2026-06-27 12:46:28,848  * Debugger is active!
+ 2026-06-27 12:46:28,856  * Debugger PIN: 106-781-810
+ 2026-06-27 12:46:30,639 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:30,646 127.0.0.1 - - [27/Jun/2026 12:46:30] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:30,656 127.0.0.1 - - [27/Jun/2026 12:46:30] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:30,659 127.0.0.1 - - [27/Jun/2026 12:46:30] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:46,688 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:46,689 127.0.0.1 - - [27/Jun/2026 12:46:46] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:46,698 127.0.0.1 - - [27/Jun/2026 12:46:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:46,705 127.0.0.1 - - [27/Jun/2026 12:46:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:48,442 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:48,442 127.0.0.1 - - [27/Jun/2026 12:46:48] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:48,451 127.0.0.1 - - [27/Jun/2026 12:46:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:48,454 127.0.0.1 - - [27/Jun/2026 12:46:48] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:54,227 127.0.0.1 - - [27/Jun/2026 12:46:54] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:56,004 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:56,005 127.0.0.1 - - [27/Jun/2026 12:46:56] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:56,015 127.0.0.1 - - [27/Jun/2026 12:46:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:56,021 127.0.0.1 - - [27/Jun/2026 12:46:56] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:57,862 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:46:57,864 127.0.0.1 - - [27/Jun/2026 12:46:57] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:46:57,877 127.0.0.1 - - [27/Jun/2026 12:46:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:46:57,882 127.0.0.1 - - [27/Jun/2026 12:46:57] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:56:45,574 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:56:45,577 127.0.0.1 - - [27/Jun/2026 12:56:45] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:56:45,586 127.0.0.1 - - [27/Jun/2026 12:56:45] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:56:45,599 127.0.0.1 - - [27/Jun/2026 12:56:45] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:57:41,299 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:57:41,300 127.0.0.1 - - [27/Jun/2026 12:57:41] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:57:41,311 127.0.0.1 - - [27/Jun/2026 12:57:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:57:41,315 127.0.0.1 - - [27/Jun/2026 12:57:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:57:51,256 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:57:51,258 127.0.0.1 - - [27/Jun/2026 12:57:51] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:57:51,269 127.0.0.1 - - [27/Jun/2026 12:57:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:57:51,275 127.0.0.1 - - [27/Jun/2026 12:57:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:58:36,035 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 12:58:36,037 127.0.0.1 - - [27/Jun/2026 12:58:36] "GET / HTTP/1.1" 200 -
+ 2026-06-27 12:58:36,047 127.0.0.1 - - [27/Jun/2026 12:58:36] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 12:58:36,053 127.0.0.1 - - [27/Jun/2026 12:58:36] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:03:58,451  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:03:58,480  * Restarting with stat
+ 2026-06-27 13:03:58,590 Creating CatsAndDogs app
+ 2026-06-27 13:03:58,611  * Debugger is active!
+ 2026-06-27 13:03:58,619  * Debugger PIN: 106-781-810
+ 2026-06-27 13:04:04,226 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 13:04:04,236 127.0.0.1 - - [27/Jun/2026 13:04:04] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:04:04,249 127.0.0.1 - - [27/Jun/2026 13:04:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:04:04,255 127.0.0.1 - - [27/Jun/2026 13:04:04] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:05:26,890 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 13:05:26,891 127.0.0.1 - - [27/Jun/2026 13:05:26] "POST / HTTP/1.1" 200 -
+ 2026-06-27 13:05:26,910 127.0.0.1 - - [27/Jun/2026 13:05:26] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:05:26,915 127.0.0.1 - - [27/Jun/2026 13:05:26] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:07:47,903  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:07:47,925  * Restarting with stat
+ 2026-06-27 13:07:48,034 Creating CatsAndDogs app
+ 2026-06-27 13:07:48,054  * Debugger is active!
+ 2026-06-27 13:07:48,061  * Debugger PIN: 106-781-810
+ 2026-06-27 13:08:09,504 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 13:08:09,513 127.0.0.1 - - [27/Jun/2026 13:08:09] "POST / HTTP/1.1" 200 -
+ 2026-06-27 13:08:09,527 127.0.0.1 - - [27/Jun/2026 13:08:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:08:09,530 127.0.0.1 - - [27/Jun/2026 13:08:09] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:11:50,698 127.0.0.1 - - [27/Jun/2026 13:11:50] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-27 13:11:50,702 127.0.0.1 - - [27/Jun/2026 13:11:50] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:11:51,361 127.0.0.1 - - [27/Jun/2026 13:11:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ 2026-06-27 13:12:02,661 127.0.0.1 - - [27/Jun/2026 13:12:02] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 13:12:02,664 Fetched 0 pets for user philip (ID: 3)
+ 2026-06-27 13:12:02,665 127.0.0.1 - - [27/Jun/2026 13:12:02] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:12:02,680 127.0.0.1 - - [27/Jun/2026 13:12:02] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:12:26,549 Attempting to add pet: Name=Bubbles, Species=Cat, Breed=Tabby, Year of Birth=2019, Owner ID=3
+ 2026-06-27 13:12:26,551 127.0.0.1 - - [27/Jun/2026 13:12:26] "[32mPOST /add_pet HTTP/1.1[0m" 302 -
+ 2026-06-27 13:12:26,555 Fetched 1 pets for user philip (ID: 3)
+ 2026-06-27 13:12:26,555 127.0.0.1 - - [27/Jun/2026 13:12:26] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:12:26,870 127.0.0.1 - - [27/Jun/2026 13:12:26] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:09,447  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:14:09,474  * Restarting with stat
+ 2026-06-27 13:14:09,587 Creating CatsAndDogs app
+ 2026-06-27 13:14:09,608  * Debugger is active!
+ 2026-06-27 13:14:09,616  * Debugger PIN: 106-781-810
+ 2026-06-27 13:14:13,470 127.0.0.1 - - [27/Jun/2026 13:14:13] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:13,484 127.0.0.1 - - [27/Jun/2026 13:14:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:34,529 127.0.0.1 - - [27/Jun/2026 13:14:34] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:34,541 127.0.0.1 - - [27/Jun/2026 13:14:34] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:35,322 127.0.0.1 - - [27/Jun/2026 13:14:35] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:35,335 127.0.0.1 - - [27/Jun/2026 13:14:35] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:37,009 127.0.0.1 - - [27/Jun/2026 13:14:37] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:37,020 127.0.0.1 - - [27/Jun/2026 13:14:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:41,583 127.0.0.1 - - [27/Jun/2026 13:14:41] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:41,592 127.0.0.1 - - [27/Jun/2026 13:14:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:14:43,239 127.0.0.1 - - [27/Jun/2026 13:14:43] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:14:43,250 127.0.0.1 - - [27/Jun/2026 13:14:43] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:15:03,019 127.0.0.1 - - [27/Jun/2026 13:15:03] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:15:03,031 127.0.0.1 - - [27/Jun/2026 13:15:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:15:57,520  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:15:57,534  * Restarting with stat
+ 2026-06-27 13:15:57,609 Creating CatsAndDogs app
+ 2026-06-27 13:15:57,629  * Debugger is active!
+ 2026-06-27 13:15:57,636  * Debugger PIN: 106-781-810
+ 2026-06-27 13:16:39,431 Fetched 1 pets for user philip (ID: 3)
+ 2026-06-27 13:16:39,440 127.0.0.1 - - [27/Jun/2026 13:16:39] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:16:39,451 127.0.0.1 - - [27/Jun/2026 13:16:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:16:53,696 Fetched 1 pets for user philip (ID: 3)
+ 2026-06-27 13:16:53,700 127.0.0.1 - - [27/Jun/2026 13:16:53] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:16:53,711 127.0.0.1 - - [27/Jun/2026 13:16:53] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:17:51,150 Attempting to add pet: Name=Darth Vader, Species=fish, Breed=goldfish, Year of Birth=2015, Owner ID=3
+ 2026-06-27 13:17:51,151 127.0.0.1 - - [27/Jun/2026 13:17:51] "[32mPOST /add_pet HTTP/1.1[0m" 302 -
+ 2026-06-27 13:17:51,154 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:17:51,155 127.0.0.1 - - [27/Jun/2026 13:17:51] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:17:51,175 127.0.0.1 - - [27/Jun/2026 13:17:51] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+ 2026-06-27 13:20:39,256 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:20:39,257 127.0.0.1 - - [27/Jun/2026 13:20:39] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:20:39,271 127.0.0.1 - - [27/Jun/2026 13:20:39] "GET /static/style.css HTTP/1.1" 200 -
+ 2026-06-27 13:21:23,883 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:21:23,886 127.0.0.1 - - [27/Jun/2026 13:21:23] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:21:23,900 127.0.0.1 - - [27/Jun/2026 13:21:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:22:36,756 127.0.0.1 - - [27/Jun/2026 13:22:36] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-27 13:22:36,759 127.0.0.1 - - [27/Jun/2026 13:22:36] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-27 13:22:36,763 127.0.0.1 - - [27/Jun/2026 13:22:36] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:23:54,875 127.0.0.1 - - [27/Jun/2026 13:23:54] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:23:54,889 127.0.0.1 - - [27/Jun/2026 13:23:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:23:59,854 127.0.0.1 - - [27/Jun/2026 13:23:59] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 13:24:00,242 127.0.0.1 - - [27/Jun/2026 13:24:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:01,411 127.0.0.1 - - [27/Jun/2026 13:24:01] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:24:01,425 127.0.0.1 - - [27/Jun/2026 13:24:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:04,161 127.0.0.1 - - [27/Jun/2026 13:24:04] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 13:24:04,176 127.0.0.1 - - [27/Jun/2026 13:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:04,876 127.0.0.1 - - [27/Jun/2026 13:24:04] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:24:04,893 127.0.0.1 - - [27/Jun/2026 13:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:05,601 127.0.0.1 - - [27/Jun/2026 13:24:05] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 13:24:05,614 127.0.0.1 - - [27/Jun/2026 13:24:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:06,228 127.0.0.1 - - [27/Jun/2026 13:24:06] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:24:06,242 127.0.0.1 - - [27/Jun/2026 13:24:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:06,858 127.0.0.1 - - [27/Jun/2026 13:24:06] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 13:24:06,879 127.0.0.1 - - [27/Jun/2026 13:24:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:07,696 127.0.0.1 - - [27/Jun/2026 13:24:07] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:24:07,709 127.0.0.1 - - [27/Jun/2026 13:24:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:08,251 127.0.0.1 - - [27/Jun/2026 13:24:08] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 13:24:08,267 127.0.0.1 - - [27/Jun/2026 13:24:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:09,075 127.0.0.1 - - [27/Jun/2026 13:24:09] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 13:24:09,087 127.0.0.1 - - [27/Jun/2026 13:24:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:24:20,915 127.0.0.1 - - [27/Jun/2026 13:24:20] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 13:24:20,918 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:24:20,919 127.0.0.1 - - [27/Jun/2026 13:24:20] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:24:20,933 127.0.0.1 - - [27/Jun/2026 13:24:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:28:36,802 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:28:36,820 127.0.0.1 - - [27/Jun/2026 13:28:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 13:28:36,832 127.0.0.1 - - [27/Jun/2026 13:28:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-27 13:28:36,833 127.0.0.1 - - [27/Jun/2026 13:28:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-27 13:28:36,849 127.0.0.1 - - [27/Jun/2026 13:28:36] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=o3ptpFUCnY3UHLe3LE5P HTTP/1.1" 200 -
+ 2026-06-27 13:28:36,854 127.0.0.1 - - [27/Jun/2026 13:28:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-27 13:30:46,723  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:30:46,746  * Restarting with stat
+ 2026-06-27 13:30:46,855 Creating CatsAndDogs app
+ 2026-06-27 13:30:46,876  * Debugger is active!
+ 2026-06-27 13:30:46,884  * Debugger PIN: 106-781-810
+ 2026-06-27 13:31:03,316  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:31:03,341  * Restarting with stat
+ 2026-06-27 13:31:03,449 Creating CatsAndDogs app
+ 2026-06-27 13:31:03,470  * Debugger is active!
+ 2026-06-27 13:31:03,477  * Debugger PIN: 106-781-810
+ 2026-06-27 13:31:39,855 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:31:39,875 127.0.0.1 - - [27/Jun/2026 13:31:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 13:31:39,892 127.0.0.1 - - [27/Jun/2026 13:31:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:39,893 127.0.0.1 - - [27/Jun/2026 13:31:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:39,899 127.0.0.1 - - [27/Jun/2026 13:31:39] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=RhOoVbWbyLmMyIy2UgD6 HTTP/1.1" 200 -
+ 2026-06-27 13:31:39,904 127.0.0.1 - - [27/Jun/2026 13:31:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:40,584 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:31:40,592 127.0.0.1 - - [27/Jun/2026 13:31:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ 2026-06-27 13:31:40,602 127.0.0.1 - - [27/Jun/2026 13:31:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:40,603 127.0.0.1 - - [27/Jun/2026 13:31:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:40,611 127.0.0.1 - - [27/Jun/2026 13:31:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=RhOoVbWbyLmMyIy2UgD6 HTTP/1.1[0m" 304 -
+ 2026-06-27 13:31:40,615 127.0.0.1 - - [27/Jun/2026 13:31:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-06-27 13:32:01,063  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:32:01,090  * Restarting with stat
+ 2026-06-27 13:32:01,202 Creating CatsAndDogs app
+ 2026-06-27 13:32:01,223  * Debugger is active!
+ 2026-06-27 13:32:01,230  * Debugger PIN: 106-781-810
+ 2026-06-27 13:32:05,493 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:32:05,500 127.0.0.1 - - [27/Jun/2026 13:32:05] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:32:05,515 127.0.0.1 - - [27/Jun/2026 13:32:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:32:07,839 127.0.0.1 - - [27/Jun/2026 13:32:07] "[35m[1mGET /pet_details/1 HTTP/1.1[0m" 500 -
+ 2026-06-27 13:32:08,518 127.0.0.1 - - [27/Jun/2026 13:32:08] "GET /pet_details/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-27 13:32:08,519 127.0.0.1 - - [27/Jun/2026 13:32:08] "GET /pet_details/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-27 13:32:08,529 127.0.0.1 - - [27/Jun/2026 13:32:08] "GET /pet_details/1?__debugger__=yes&cmd=resource&f=console.png&s=eEljxrMgkoMyuXOzwcTD HTTP/1.1" 200 -
+ 2026-06-27 13:32:08,534 127.0.0.1 - - [27/Jun/2026 13:32:08] "GET /pet_details/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-27 13:32:15,977 127.0.0.1 - - [27/Jun/2026 13:32:15] "[35m[1mGET /pet_details/2 HTTP/1.1[0m" 500 -
+ 2026-06-27 13:32:16,303 127.0.0.1 - - [27/Jun/2026 13:32:16] "GET /pet_details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+ 2026-06-27 13:32:16,306 127.0.0.1 - - [27/Jun/2026 13:32:16] "GET /pet_details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+ 2026-06-27 13:32:16,311 127.0.0.1 - - [27/Jun/2026 13:32:16] "GET /pet_details/2?__debugger__=yes&cmd=resource&f=console.png&s=eEljxrMgkoMyuXOzwcTD HTTP/1.1" 200 -
+ 2026-06-27 13:32:16,321 127.0.0.1 - - [27/Jun/2026 13:32:16] "GET /pet_details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ 2026-06-27 13:33:42,841 127.0.0.1 - - [27/Jun/2026 13:33:42] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:34:14,337 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:34:14,342 127.0.0.1 - - [27/Jun/2026 13:34:14] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:34:14,353 127.0.0.1 - - [27/Jun/2026 13:34:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:34:15,266 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:34:15,266 127.0.0.1 - - [27/Jun/2026 13:34:15] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:34:15,279 127.0.0.1 - - [27/Jun/2026 13:34:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:34:16,035 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:34:16,036 127.0.0.1 - - [27/Jun/2026 13:34:16] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:34:16,049 127.0.0.1 - - [27/Jun/2026 13:34:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:35:57,696  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:35:57,726  * Restarting with stat
+ 2026-06-27 13:35:57,840 Creating CatsAndDogs app
+ 2026-06-27 13:35:57,863  * Debugger is active!
+ 2026-06-27 13:35:57,871  * Debugger PIN: 106-781-810
+ 2026-06-27 13:37:31,728 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:37:31,737 127.0.0.1 - - [27/Jun/2026 13:37:31] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:37:31,751 127.0.0.1 - - [27/Jun/2026 13:37:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:32,824 127.0.0.1 - - [27/Jun/2026 13:37:32] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 13:37:32,839 127.0.0.1 - - [27/Jun/2026 13:37:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:37,470 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:37:37,471 127.0.0.1 - - [27/Jun/2026 13:37:37] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:37:37,496 127.0.0.1 - - [27/Jun/2026 13:37:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:39,901 127.0.0.1 - - [27/Jun/2026 13:37:39] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:37:39,926 127.0.0.1 - - [27/Jun/2026 13:37:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:56,735 127.0.0.1 - - [27/Jun/2026 13:37:56] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:37:56,746 127.0.0.1 - - [27/Jun/2026 13:37:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:57,962 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 13:37:57,962 127.0.0.1 - - [27/Jun/2026 13:37:57] "GET / HTTP/1.1" 200 -
+ 2026-06-27 13:37:57,986 127.0.0.1 - - [27/Jun/2026 13:37:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:37:59,687 127.0.0.1 - - [27/Jun/2026 13:37:59] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:37:59,711 127.0.0.1 - - [27/Jun/2026 13:37:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:39:08,537 127.0.0.1 - - [27/Jun/2026 13:39:08] "[35m[1mGET /pet_details/2 HTTP/1.1[0m" 500 -
+ 2026-06-27 13:39:08,549 127.0.0.1 - - [27/Jun/2026 13:39:08] "[36mGET /pet_details/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+ 2026-06-27 13:39:08,549 127.0.0.1 - - [27/Jun/2026 13:39:08] "[36mGET /pet_details/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:39:08,556 127.0.0.1 - - [27/Jun/2026 13:39:08] "GET /pet_details/2?__debugger__=yes&cmd=resource&f=console.png&s=nM9ALmOmEotggVx3HDGl HTTP/1.1" 200 -
+ 2026-06-27 13:39:08,564 127.0.0.1 - - [27/Jun/2026 13:39:08] "[36mGET /pet_details/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ 2026-06-27 13:39:28,137 127.0.0.1 - - [27/Jun/2026 13:39:28] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:39:28,150 127.0.0.1 - - [27/Jun/2026 13:39:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 13:46:39,495  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:46:39,527  * Restarting with stat
+ 2026-06-27 13:46:39,638 Creating CatsAndDogs app
+ 2026-06-27 13:46:39,660  * Debugger is active!
+ 2026-06-27 13:46:39,668  * Debugger PIN: 106-781-810
+ 2026-06-27 13:47:19,743  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 13:47:19,771  * Restarting with stat
+ 2026-06-27 13:47:19,845 Creating CatsAndDogs app
+ 2026-06-27 13:47:19,862  * Debugger is active!
+ 2026-06-27 13:47:19,870  * Debugger PIN: 106-781-810
+ 2026-06-27 13:47:34,930 Fetched details for pet ID 2: Darth Vader with 0 care types.
+ 2026-06-27 13:47:34,938 127.0.0.1 - - [27/Jun/2026 13:47:34] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 13:47:34,953 127.0.0.1 - - [27/Jun/2026 13:47:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:01:12,487  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 14:01:12,515  * Restarting with stat
+ 2026-06-27 14:01:12,642 Creating CatsAndDogs app
+ 2026-06-27 14:01:12,665  * Debugger is active!
+ 2026-06-27 14:01:12,674  * Debugger PIN: 106-781-810
+ 2026-06-27 14:01:14,091 Fetched details for pet ID 2: Darth Vader with 0 care types.
+ 2026-06-27 14:01:14,100 127.0.0.1 - - [27/Jun/2026 14:01:14] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 14:01:14,115 127.0.0.1 - - [27/Jun/2026 14:01:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:01:41,808 Fetched details for pet ID 2: Darth Vader with 0 care types.
+ 2026-06-27 14:01:41,812 127.0.0.1 - - [27/Jun/2026 14:01:41] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 14:01:41,823 127.0.0.1 - - [27/Jun/2026 14:01:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:02:10,790 127.0.0.1 - - [27/Jun/2026 14:02:10] "[32mPOST /add_care_details HTTP/1.1[0m" 302 -
+ 2026-06-27 14:02:10,793 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 14:02:10,794 127.0.0.1 - - [27/Jun/2026 14:02:10] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 14:02:12,093 127.0.0.1 - - [27/Jun/2026 14:02:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:02:28,890 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 14:02:28,896 127.0.0.1 - - [27/Jun/2026 14:02:28] "GET / HTTP/1.1" 200 -
+ 2026-06-27 14:02:28,911 127.0.0.1 - - [27/Jun/2026 14:02:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:02:30,917 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 14:02:30,917 127.0.0.1 - - [27/Jun/2026 14:02:30] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 14:02:30,933 127.0.0.1 - - [27/Jun/2026 14:02:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:02:34,731 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 14:02:34,732 127.0.0.1 - - [27/Jun/2026 14:02:34] "GET / HTTP/1.1" 200 -
+ 2026-06-27 14:02:34,753 127.0.0.1 - - [27/Jun/2026 14:02:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 14:02:35,714 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 14:02:35,715 127.0.0.1 - - [27/Jun/2026 14:02:35] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 14:02:35,730 127.0.0.1 - - [27/Jun/2026 14:02:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:04:58,922 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 15:04:58,926 127.0.0.1 - - [27/Jun/2026 15:04:58] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 15:04:58,941 127.0.0.1 - - [27/Jun/2026 15:04:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:00,446 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 15:05:00,447 127.0.0.1 - - [27/Jun/2026 15:05:00] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 15:05:00,460 127.0.0.1 - - [27/Jun/2026 15:05:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:02,594 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:02,595 127.0.0.1 - - [27/Jun/2026 15:05:02] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:03,273 127.0.0.1 - - [27/Jun/2026 15:05:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:04,804 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 15:05:04,805 127.0.0.1 - - [27/Jun/2026 15:05:04] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 15:05:04,825 127.0.0.1 - - [27/Jun/2026 15:05:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:06,476 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:06,476 127.0.0.1 - - [27/Jun/2026 15:05:06] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:06,498 127.0.0.1 - - [27/Jun/2026 15:05:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:10,363 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 15:05:10,363 127.0.0.1 - - [27/Jun/2026 15:05:10] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 15:05:10,382 127.0.0.1 - - [27/Jun/2026 15:05:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:11,771 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:11,772 127.0.0.1 - - [27/Jun/2026 15:05:11] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:11,790 127.0.0.1 - - [27/Jun/2026 15:05:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:12,852 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 15:05:12,853 127.0.0.1 - - [27/Jun/2026 15:05:12] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 15:05:12,878 127.0.0.1 - - [27/Jun/2026 15:05:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:13,929 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:13,930 127.0.0.1 - - [27/Jun/2026 15:05:13] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:13,945 127.0.0.1 - - [27/Jun/2026 15:05:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:17,412 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 15:05:17,412 127.0.0.1 - - [27/Jun/2026 15:05:17] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 15:05:17,434 127.0.0.1 - - [27/Jun/2026 15:05:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:19,152 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:19,153 127.0.0.1 - - [27/Jun/2026 15:05:19] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:19,168 127.0.0.1 - - [27/Jun/2026 15:05:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:41,816 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:41,821 127.0.0.1 - - [27/Jun/2026 15:05:41] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:41,832 127.0.0.1 - - [27/Jun/2026 15:05:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:46,269 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 15:05:46,269 127.0.0.1 - - [27/Jun/2026 15:05:46] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 15:05:46,283 127.0.0.1 - - [27/Jun/2026 15:05:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:05:47,395 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:05:47,396 127.0.0.1 - - [27/Jun/2026 15:05:47] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:05:47,408 127.0.0.1 - - [27/Jun/2026 15:05:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:06:06,508 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:06:06,509 127.0.0.1 - - [27/Jun/2026 15:06:06] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:06:06,523 127.0.0.1 - - [27/Jun/2026 15:06:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:06:07,376 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:06:07,376 127.0.0.1 - - [27/Jun/2026 15:06:07] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:06:07,391 127.0.0.1 - - [27/Jun/2026 15:06:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:06:09,478 Fetched details for pet ID 2: Darth Vader with 1 care types.
+ 2026-06-27 15:06:09,483 127.0.0.1 - - [27/Jun/2026 15:06:09] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-27 15:06:09,497 127.0.0.1 - - [27/Jun/2026 15:06:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:06:14,351 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:06:14,352 127.0.0.1 - - [27/Jun/2026 15:06:14] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:06:14,368 127.0.0.1 - - [27/Jun/2026 15:06:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:20,832 127.0.0.1 - - [27/Jun/2026 15:07:20] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-27 15:07:20,836 127.0.0.1 - - [27/Jun/2026 15:07:20] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-27 15:07:20,849 127.0.0.1 - - [27/Jun/2026 15:07:20] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:21,388 127.0.0.1 - - [27/Jun/2026 15:07:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:26,622 127.0.0.1 - - [27/Jun/2026 15:07:26] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:26,645 127.0.0.1 - - [27/Jun/2026 15:07:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:27,344 127.0.0.1 - - [27/Jun/2026 15:07:27] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:07:27,356 127.0.0.1 - - [27/Jun/2026 15:07:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:28,645 127.0.0.1 - - [27/Jun/2026 15:07:28] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:28,666 127.0.0.1 - - [27/Jun/2026 15:07:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:29,321 127.0.0.1 - - [27/Jun/2026 15:07:29] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:07:29,346 127.0.0.1 - - [27/Jun/2026 15:07:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:30,057 127.0.0.1 - - [27/Jun/2026 15:07:30] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:30,070 127.0.0.1 - - [27/Jun/2026 15:07:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:30,641 127.0.0.1 - - [27/Jun/2026 15:07:30] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:07:30,655 127.0.0.1 - - [27/Jun/2026 15:07:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:31,394 127.0.0.1 - - [27/Jun/2026 15:07:31] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:31,407 127.0.0.1 - - [27/Jun/2026 15:07:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:32,022 127.0.0.1 - - [27/Jun/2026 15:07:32] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:07:32,043 127.0.0.1 - - [27/Jun/2026 15:07:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:32,757 127.0.0.1 - - [27/Jun/2026 15:07:32] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:32,776 127.0.0.1 - - [27/Jun/2026 15:07:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:33,657 127.0.0.1 - - [27/Jun/2026 15:07:33] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:07:33,672 127.0.0.1 - - [27/Jun/2026 15:07:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:36,582 127.0.0.1 - - [27/Jun/2026 15:07:36] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:07:36,598 127.0.0.1 - - [27/Jun/2026 15:07:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:07:43,005 127.0.0.1 - - [27/Jun/2026 15:07:43] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 15:07:43,008 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:07:43,009 127.0.0.1 - - [27/Jun/2026 15:07:43] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:07:43,023 127.0.0.1 - - [27/Jun/2026 15:07:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:08:00,255 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 15:08:00,256 127.0.0.1 - - [27/Jun/2026 15:08:00] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 15:08:00,272 127.0.0.1 - - [27/Jun/2026 15:08:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:48:03,897 Fetched details for pet ID 1: Bubbles with 0 care types.
+ 2026-06-27 15:48:03,898 127.0.0.1 - - [27/Jun/2026 15:48:03] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 15:48:03,953 127.0.0.1 - - [27/Jun/2026 15:48:03] "GET /static/style.css HTTP/1.1" 200 -
+ 2026-06-27 15:48:03,969 127.0.0.1 - - [27/Jun/2026 15:48:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:48:06,189 Fetched 2 pets for user philip (ID: 3)
+ 2026-06-27 15:48:06,190 127.0.0.1 - - [27/Jun/2026 15:48:06] "GET / HTTP/1.1" 200 -
+ 2026-06-27 15:48:06,202 127.0.0.1 - - [27/Jun/2026 15:48:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:48:06,209 127.0.0.1 - - [27/Jun/2026 15:48:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:58:59,960 Creating CatsAndDogs app
+ 2026-06-27 15:59:13,270 Creating CatsAndDogs app
+ 2026-06-27 15:59:13,300 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 15:59:13,301 [33mPress CTRL+C to quit[0m
+ 2026-06-27 15:59:13,301  * Restarting with stat
+ 2026-06-27 15:59:13,375 Creating CatsAndDogs app
+ 2026-06-27 15:59:13,390  * Debugger is active!
+ 2026-06-27 15:59:13,401  * Debugger PIN: 376-512-187
+ 2026-06-27 15:59:26,291 127.0.0.1 - - [27/Jun/2026 15:59:26] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-27 15:59:26,293 127.0.0.1 - - [27/Jun/2026 15:59:26] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-27 15:59:26,302 127.0.0.1 - - [27/Jun/2026 15:59:26] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:59:26,313 127.0.0.1 - - [27/Jun/2026 15:59:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:59:26,320 127.0.0.1 - - [27/Jun/2026 15:59:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:59:28,045 127.0.0.1 - - [27/Jun/2026 15:59:28] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 15:59:28,054 127.0.0.1 - - [27/Jun/2026 15:59:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:59:28,060 127.0.0.1 - - [27/Jun/2026 15:59:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:59:30,327 127.0.0.1 - - [27/Jun/2026 15:59:30] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 15:59:30,338 127.0.0.1 - - [27/Jun/2026 15:59:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 15:59:30,342 127.0.0.1 - - [27/Jun/2026 15:59:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:03:18,266 Creating CatsAndDogs app
+ 2026-06-27 16:03:49,160 Creating CatsAndDogs app
+ 2026-06-27 16:04:05,230 Creating CatsAndDogs app
+ 2026-06-27 16:04:05,257 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 16:04:05,257 [33mPress CTRL+C to quit[0m
+ 2026-06-27 16:04:05,257  * Restarting with stat
+ 2026-06-27 16:04:05,323 Creating CatsAndDogs app
+ 2026-06-27 16:04:05,338  * Debugger is active!
+ 2026-06-27 16:04:05,346  * Debugger PIN: 376-512-187
+ 2026-06-27 16:04:58,686  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-27 16:04:58,708  * Restarting with stat
+ 2026-06-27 16:04:58,814 Creating CatsAndDogs app
+ 2026-06-27 16:04:58,835  * Debugger is active!
+ 2026-06-27 16:04:58,843  * Debugger PIN: 376-512-187
+ 2026-06-27 16:05:15,558 127.0.0.1 - - [27/Jun/2026 16:05:15] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 16:05:15,570 127.0.0.1 - - [27/Jun/2026 16:05:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:15,576 127.0.0.1 - - [27/Jun/2026 16:05:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:17,019 127.0.0.1 - - [27/Jun/2026 16:05:17] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 16:05:17,030 127.0.0.1 - - [27/Jun/2026 16:05:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:17,035 127.0.0.1 - - [27/Jun/2026 16:05:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:25,534 127.0.0.1 - - [27/Jun/2026 16:05:25] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 16:05:25,539 127.0.0.1 - - [27/Jun/2026 16:05:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:25,543 127.0.0.1 - - [27/Jun/2026 16:05:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:05:30,649  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/auth.py', reloading
+ 2026-06-27 16:05:30,678  * Restarting with stat
+ 2026-06-27 16:05:30,783 Creating CatsAndDogs app
+ 2026-06-27 16:05:30,804  * Debugger is active!
+ 2026-06-27 16:05:30,810  * Debugger PIN: 376-512-187
+ 2026-06-27 16:05:33,090 127.0.0.1 - - [27/Jun/2026 16:05:33] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-27 16:05:33,103 127.0.0.1 - - [27/Jun/2026 16:05:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:06:02,324 127.0.0.1 - - [27/Jun/2026 16:06:02] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+ 2026-06-27 16:06:02,326 127.0.0.1 - - [27/Jun/2026 16:06:02] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 16:06:02,333 127.0.0.1 - - [27/Jun/2026 16:06:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:06:10,086 127.0.0.1 - - [27/Jun/2026 16:06:10] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 16:06:10,087 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:06:10,090 127.0.0.1 - - [27/Jun/2026 16:06:10] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:06:10,096 127.0.0.1 - - [27/Jun/2026 16:06:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:06:10,101 127.0.0.1 - - [27/Jun/2026 16:06:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:09:28,138 127.0.0.1 - - [27/Jun/2026 16:09:28] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-27 16:09:28,148 127.0.0.1 - - [27/Jun/2026 16:09:28] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-27 16:09:28,160 127.0.0.1 - - [27/Jun/2026 16:09:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:09:38,602 127.0.0.1 - - [27/Jun/2026 16:09:38] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-27 16:09:38,605 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:09:38,607 127.0.0.1 - - [27/Jun/2026 16:09:38] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:09:38,620 127.0.0.1 - - [27/Jun/2026 16:09:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:10:01,453 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:10:01,458 127.0.0.1 - - [27/Jun/2026 16:10:01] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:10:01,472 127.0.0.1 - - [27/Jun/2026 16:10:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:10:42,071 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:10:42,077 127.0.0.1 - - [27/Jun/2026 16:10:42] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:10:42,089 127.0.0.1 - - [27/Jun/2026 16:10:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:11:46,305 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:11:46,309 127.0.0.1 - - [27/Jun/2026 16:11:46] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:11:46,321 127.0.0.1 - - [27/Jun/2026 16:11:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:11:57,859 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:11:57,864 127.0.0.1 - - [27/Jun/2026 16:11:57] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:11:57,876 127.0.0.1 - - [27/Jun/2026 16:11:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:15:21,904  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 16:15:21,944  * Restarting with stat
+ 2026-06-27 16:15:22,051 Creating CatsAndDogs app
+ 2026-06-27 16:15:22,075  * Debugger is active!
+ 2026-06-27 16:15:22,082  * Debugger PIN: 376-512-187
+ 2026-06-27 16:15:52,744 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:15:52,754 127.0.0.1 - - [27/Jun/2026 16:15:52] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:15:52,770 127.0.0.1 - - [27/Jun/2026 16:15:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:18:08,453 127.0.0.1 - - [27/Jun/2026 16:18:08] "[32mPOST /update_profile HTTP/1.1[0m" 302 -
+ 2026-06-27 16:18:08,456 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:18:08,457 127.0.0.1 - - [27/Jun/2026 16:18:08] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:18:09,122 127.0.0.1 - - [27/Jun/2026 16:18:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:18:15,551 Fetched 0 pets for user philip (ID: 1)
+ 2026-06-27 16:18:15,552 127.0.0.1 - - [27/Jun/2026 16:18:15] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:18:15,565 127.0.0.1 - - [27/Jun/2026 16:18:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:18:46,992 Attempting to add pet: Name=Darth Vader, Species=fish, Breed=goldfish, Year of Birth=2015, Owner ID=1
+ 2026-06-27 16:18:46,993 127.0.0.1 - - [27/Jun/2026 16:18:46] "[32mPOST /add_pet HTTP/1.1[0m" 302 -
+ 2026-06-27 16:18:46,997 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:18:46,998 127.0.0.1 - - [27/Jun/2026 16:18:46] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:18:47,307 127.0.0.1 - - [27/Jun/2026 16:18:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:18:49,630 Fetched details for pet ID 1: Darth Vader with 0 care types.
+ 2026-06-27 16:18:49,635 127.0.0.1 - - [27/Jun/2026 16:18:49] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 16:18:49,840 127.0.0.1 - - [27/Jun/2026 16:18:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:19:22,796 127.0.0.1 - - [27/Jun/2026 16:19:22] "[32mPOST /add_care_details HTTP/1.1[0m" 302 -
+ 2026-06-27 16:19:22,799 Fetched details for pet ID 1: Darth Vader with 1 care types.
+ 2026-06-27 16:19:22,799 127.0.0.1 - - [27/Jun/2026 16:19:22] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 16:19:23,113 127.0.0.1 - - [27/Jun/2026 16:19:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:19:26,749 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:19:26,750 127.0.0.1 - - [27/Jun/2026 16:19:26] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:19:26,764 127.0.0.1 - - [27/Jun/2026 16:19:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:20:58,307  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-06-27 16:20:58,326  * Restarting with stat
+ 2026-06-27 16:20:58,432 Creating CatsAndDogs app
+ 2026-06-27 16:20:58,455  * Debugger is active!
+ 2026-06-27 16:20:58,463  * Debugger PIN: 376-512-187
+ 2026-06-27 16:21:03,620  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-06-27 16:21:03,639  * Restarting with stat
+ 2026-06-27 16:21:03,710 Creating CatsAndDogs app
+ 2026-06-27 16:21:03,729  * Debugger is active!
+ 2026-06-27 16:21:03,736  * Debugger PIN: 376-512-187
+ 2026-06-27 16:21:10,953  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 16:21:10,981  * Restarting with stat
+ 2026-06-27 16:21:11,078 Creating CatsAndDogs app
+ 2026-06-27 16:21:11,098  * Debugger is active!
+ 2026-06-27 16:21:11,105  * Debugger PIN: 376-512-187
+ 2026-06-27 16:21:20,371  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 16:21:20,387  * Restarting with stat
+ 2026-06-27 16:21:20,459 Creating CatsAndDogs app
+ 2026-06-27 16:21:20,477  * Debugger is active!
+ 2026-06-27 16:21:20,483  * Debugger PIN: 376-512-187
+ 2026-06-27 16:21:55,441  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/__init__.py', reloading
+ 2026-06-27 16:21:55,461  * Restarting with stat
+ 2026-06-27 16:21:55,530 Creating CatsAndDogs app
+ 2026-06-27 16:21:55,548  * Debugger is active!
+ 2026-06-27 16:21:55,555  * Debugger PIN: 376-512-187
+ 2026-06-27 16:22:01,660 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:22:01,671 127.0.0.1 - - [27/Jun/2026 16:22:01] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:22:01,686 127.0.0.1 - - [27/Jun/2026 16:22:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:22:44,940  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-27 16:22:44,969  * Restarting with stat
+ 2026-06-27 16:22:45,086 Creating CatsAndDogs app
+ 2026-06-27 16:22:45,111  * Debugger is active!
+ 2026-06-27 16:22:45,119  * Debugger PIN: 376-512-187
+ 2026-06-27 16:23:57,117 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:23:57,127 127.0.0.1 - - [27/Jun/2026 16:23:57] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:23:57,140 127.0.0.1 - - [27/Jun/2026 16:23:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:28:36,804 Creating CatsAndDogs app
+ 2026-06-27 16:28:36,828 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 16:28:36,828 [33mPress CTRL+C to quit[0m
+ 2026-06-27 16:28:36,828  * Restarting with stat
+ 2026-06-27 16:28:36,892 Creating CatsAndDogs app
+ 2026-06-27 16:28:36,908  * Debugger is active!
+ 2026-06-27 16:28:36,916  * Debugger PIN: 376-512-187
+ 2026-06-27 16:30:23,825 127.0.0.1 - - [27/Jun/2026 16:30:23] "[32mPOST /upload_photo HTTP/1.1[0m" 302 -
+ 2026-06-27 16:30:23,835 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:30:23,846 127.0.0.1 - - [27/Jun/2026 16:30:23] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:30:24,336 127.0.0.1 - - [27/Jun/2026 16:30:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:30:32,285 127.0.0.1 - - [27/Jun/2026 16:30:32] "[32mPOST /upload_photo HTTP/1.1[0m" 302 -
+ 2026-06-27 16:30:32,288 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:30:32,288 127.0.0.1 - - [27/Jun/2026 16:30:32] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:30:32,303 127.0.0.1 - - [27/Jun/2026 16:30:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:30:32,304 127.0.0.1 - - [27/Jun/2026 16:30:32] "GET /static/uploads/user_1_profile1.png HTTP/1.1" 200 -
+ 2026-06-27 16:30:41,215 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:30:41,216 127.0.0.1 - - [27/Jun/2026 16:30:41] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:30:41,230 127.0.0.1 - - [27/Jun/2026 16:30:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:30:41,230 127.0.0.1 - - [27/Jun/2026 16:30:41] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:44,727 127.0.0.1 - - [27/Jun/2026 16:31:44] "[32mPOST /update_profile HTTP/1.1[0m" 302 -
+ 2026-06-27 16:31:44,731 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:31:44,732 127.0.0.1 - - [27/Jun/2026 16:31:44] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:31:44,749 127.0.0.1 - - [27/Jun/2026 16:31:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:44,750 127.0.0.1 - - [27/Jun/2026 16:31:44] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:48,126 Fetched details for pet ID 1: Darth Vader with 1 care types.
+ 2026-06-27 16:31:48,131 127.0.0.1 - - [27/Jun/2026 16:31:48] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 16:31:48,143 127.0.0.1 - - [27/Jun/2026 16:31:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:49,332 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:31:49,333 127.0.0.1 - - [27/Jun/2026 16:31:49] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:31:49,349 127.0.0.1 - - [27/Jun/2026 16:31:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:49,349 127.0.0.1 - - [27/Jun/2026 16:31:49] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:51,428 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:31:51,429 127.0.0.1 - - [27/Jun/2026 16:31:51] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:31:51,443 127.0.0.1 - - [27/Jun/2026 16:31:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:31:51,444 127.0.0.1 - - [27/Jun/2026 16:31:51] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:35:43,685 127.0.0.1 - - [27/Jun/2026 16:35:43] "[32mPOST /update_profile HTTP/1.1[0m" 302 -
+ 2026-06-27 16:35:43,695 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:35:43,695 127.0.0.1 - - [27/Jun/2026 16:35:43] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:35:44,056 127.0.0.1 - - [27/Jun/2026 16:35:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:35:44,056 127.0.0.1 - - [27/Jun/2026 16:35:44] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
