@@ -1,6 +1,7 @@
 import functools
 import logging
 import os
+from datetime import date
 from flask import Blueprint
 from flask import current_app
 from flask import flash
@@ -164,9 +165,82 @@ def pet_details(pet_id):
         "SELECT * FROM care_types WHERE pet_id = ?;", (pet_id,)
     ).fetchall()
 
+    g.bookings = db.execute(
+        "SELECT bookings.*, users.username AS sitter_name FROM bookings "
+        "LEFT JOIN users ON users.id = bookings.sitter_id "
+        "WHERE bookings.pet_id = ?;",
+        (pet_id,),
+    ).fetchall()
+
     log.info(f"Fetched details for pet ID {pet_id}: {g.pet['name']} with {len(g.care_types)} care types.")
 
-    return render_template("pet_detail.html", pet=g.pet, care_types=g.care_types)
+    return render_template(
+        "pet_detail.html",
+        pet=g.pet,
+        care_types=g.care_types,
+        bookings=g.bookings,
+    )
+
+
+@bp.route("/add_booking", methods=("POST",))
+@auth.login_required
+def add_booking():
+    pet_id = request.form["pet_id"]
+    sitter_id = None
+    start_date = request.form["start_date"]
+    end_date = request.form["end_date"]
+    daily_price = request.form["daily_price"]
+
+    db = get_db()
+    error = None
+
+    pet = db.execute(
+        "SELECT * FROM pets WHERE id = ? AND owner_id = ?;", (pet_id, g.user["id"])
+    ).fetchone()
+
+    if pet is None:
+        flash("Pet not found or you do not have permission to book for it.", "error")
+        return redirect(url_for("home.index"))
+
+    if not start_date:
+        error = "Start date is required."
+    elif not end_date:
+        error = "End date is required."
+    elif not daily_price:
+        error = "Daily price is required."
+    else:
+        try:
+            parsed_start = date.fromisoformat(start_date)
+            parsed_end = date.fromisoformat(end_date)
+            if parsed_start < date.today():
+                error = "Start date cannot be in the past."
+            elif parsed_end < date.today():
+                error = "End date cannot be in the past."
+            elif parsed_end < parsed_start:
+                error = "End date must be after start date."
+        except ValueError:
+            error = "Dates must be valid."
+
+    if error is None:
+        try:
+            daily_price = round(float(daily_price))
+        except ValueError:
+            error = "Daily price must be a number."
+
+    if error is None:
+        try:
+            db.execute(
+                "INSERT INTO bookings (pet_id, sitter_id, start_date, end_date, daily_price) VALUES (?, ?, ?, ?, ?)",
+                (pet_id, sitter_id, start_date, end_date, daily_price),
+            )
+            db.commit()
+            flash("Booking added successfully!", "success")
+        except Exception as e:
+            flash(f"Error adding booking to the database: {e}", "error")
+    else:
+        flash(error, "error")
+
+    return redirect(url_for("home.pet_details", pet_id=pet_id))
 
 
 @bp.route("/add_care_details", methods=("POST",))

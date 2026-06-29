@@ -27,3 +27,15 @@ CREATE TABLE IF NOT EXISTS care_types (
     pet_id INTEGER NOT NULL,
     FOREIGN KEY (pet_id) REFERENCES pets (id)
 );
+
+
+CREATE TABLE IF NOT EXISTS bookings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pet_id INTEGER NOT NULL,
+    sitter_id INTEGER,
+    start_date TEXT NOT NULL,
+    end_date TEXT NOT NULL,
+    daily_price INTEGER NOT NULL,
+    FOREIGN KEY (pet_id) REFERENCES pets (id),
+    FOREIGN KEY (sitter_id) REFERENCES users (id)
+);

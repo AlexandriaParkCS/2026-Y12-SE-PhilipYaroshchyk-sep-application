@@ -1380,3 +1380,172 @@
  2026-06-27 16:35:43,695 127.0.0.1 - - [27/Jun/2026 16:35:43] "GET / HTTP/1.1" 200 -
  2026-06-27 16:35:44,056 127.0.0.1 - - [27/Jun/2026 16:35:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
  2026-06-27 16:35:44,056 127.0.0.1 - - [27/Jun/2026 16:35:44] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:40:22,383 Creating CatsAndDogs app
+ 2026-06-27 16:40:22,409 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-27 16:40:22,409 [33mPress CTRL+C to quit[0m
+ 2026-06-27 16:40:22,410  * Restarting with stat
+ 2026-06-27 16:40:22,474 Creating CatsAndDogs app
+ 2026-06-27 16:40:22,491  * Debugger is active!
+ 2026-06-27 16:40:22,499  * Debugger PIN: 376-512-187
+ 2026-06-27 16:40:27,167 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:40:27,177 127.0.0.1 - - [27/Jun/2026 16:40:27] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:40:27,194 127.0.0.1 - - [27/Jun/2026 16:40:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:40:27,195 127.0.0.1 - - [27/Jun/2026 16:40:27] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-27 16:40:30,775 Fetched details for pet ID 1: Darth Vader with 1 care types.
+ 2026-06-27 16:40:30,782 127.0.0.1 - - [27/Jun/2026 16:40:30] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-27 16:40:30,799 127.0.0.1 - - [27/Jun/2026 16:40:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:40:32,935 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-27 16:40:32,936 127.0.0.1 - - [27/Jun/2026 16:40:32] "GET / HTTP/1.1" 200 -
+ 2026-06-27 16:40:32,958 127.0.0.1 - - [27/Jun/2026 16:40:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-27 16:40:32,958 127.0.0.1 - - [27/Jun/2026 16:40:32] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-29 21:18:56,676 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-29 21:18:56,678 127.0.0.1 - - [29/Jun/2026 21:18:56] "GET / HTTP/1.1" 200 -
+ 2026-06-29 21:18:56,694 127.0.0.1 - - [29/Jun/2026 21:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:18:56,695 127.0.0.1 - - [29/Jun/2026 21:18:56] "GET /static/uploads/user_1_profile1.png HTTP/1.1" 200 -
+ 2026-06-29 21:18:56,741 127.0.0.1 - - [29/Jun/2026 21:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:22:19,936 Fetched details for pet ID 1: Darth Vader with 1 care types.
+ 2026-06-29 21:22:19,937 127.0.0.1 - - [29/Jun/2026 21:22:19] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:22:19,947 127.0.0.1 - - [29/Jun/2026 21:22:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:22:19,954 127.0.0.1 - - [29/Jun/2026 21:22:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:27:39,760 Fetched details for pet ID 1: Darth Vader with 1 care types.
+ 2026-06-29 21:27:39,762 127.0.0.1 - - [29/Jun/2026 21:27:39] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:27:40,429 127.0.0.1 - - [29/Jun/2026 21:27:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:28:03,947 127.0.0.1 - - [29/Jun/2026 21:28:03] "[32mPOST /add_care_details HTTP/1.1[0m" 302 -
+ 2026-06-29 21:28:03,950 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:28:03,951 127.0.0.1 - - [29/Jun/2026 21:28:03] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:28:04,147 127.0.0.1 - - [29/Jun/2026 21:28:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:31:22,208 Creating CatsAndDogs app
+ 2026-06-29 21:31:22,238 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-29 21:31:22,238 [33mPress CTRL+C to quit[0m
+ 2026-06-29 21:31:22,238  * Restarting with stat
+ 2026-06-29 21:31:22,303 Creating CatsAndDogs app
+ 2026-06-29 21:31:22,319  * Debugger is active!
+ 2026-06-29 21:31:22,329  * Debugger PIN: 106-781-810
+ 2026-06-29 21:31:38,456 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:31:38,465 127.0.0.1 - - [29/Jun/2026 21:31:38] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:31:38,480 127.0.0.1 - - [29/Jun/2026 21:31:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:31:40,385 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:31:40,386 127.0.0.1 - - [29/Jun/2026 21:31:40] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:31:40,399 127.0.0.1 - - [29/Jun/2026 21:31:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:31:42,716 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-29 21:31:42,724 127.0.0.1 - - [29/Jun/2026 21:31:42] "GET / HTTP/1.1" 200 -
+ 2026-06-29 21:31:43,082 127.0.0.1 - - [29/Jun/2026 21:31:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:31:43,084 127.0.0.1 - - [29/Jun/2026 21:31:43] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-29 21:33:49,760 Creating CatsAndDogs app
+ 2026-06-29 21:34:23,708 Creating CatsAndDogs app
+ 2026-06-29 21:36:21,496 Creating CatsAndDogs app
+ 2026-06-29 21:36:58,843 Creating CatsAndDogs app
+ 2026-06-29 21:36:58,871 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-29 21:36:58,871 [33mPress CTRL+C to quit[0m
+ 2026-06-29 21:36:58,871  * Restarting with stat
+ 2026-06-29 21:36:58,936 Creating CatsAndDogs app
+ 2026-06-29 21:36:58,953  * Debugger is active!
+ 2026-06-29 21:36:58,962  * Debugger PIN: 106-781-810
+ 2026-06-29 21:37:24,353 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-29 21:37:24,363 127.0.0.1 - - [29/Jun/2026 21:37:24] "GET / HTTP/1.1" 200 -
+ 2026-06-29 21:37:24,375 127.0.0.1 - - [29/Jun/2026 21:37:24] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-29 21:37:24,375 127.0.0.1 - - [29/Jun/2026 21:37:24] "GET /static/style.css HTTP/1.1" 200 -
+ 2026-06-29 21:37:27,196 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:37:27,201 127.0.0.1 - - [29/Jun/2026 21:37:27] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:37:27,213 127.0.0.1 - - [29/Jun/2026 21:37:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:37:27,219 127.0.0.1 - - [29/Jun/2026 21:37:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:39:52,575  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:39:52,590  * Restarting with stat
+ 2026-06-29 21:39:52,698 Creating CatsAndDogs app
+ 2026-06-29 21:39:52,721  * Debugger is active!
+ 2026-06-29 21:39:52,730  * Debugger PIN: 106-781-810
+ 2026-06-29 21:40:30,462 Fetched 1 pets for user philip (ID: 1)
+ 2026-06-29 21:40:30,473 127.0.0.1 - - [29/Jun/2026 21:40:30] "GET / HTTP/1.1" 200 -
+ 2026-06-29 21:40:30,517 127.0.0.1 - - [29/Jun/2026 21:40:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:40:30,517 127.0.0.1 - - [29/Jun/2026 21:40:30] "[36mGET /static/uploads/user_1_profile1.png HTTP/1.1[0m" 304 -
+ 2026-06-29 21:40:33,074 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:40:33,080 127.0.0.1 - - [29/Jun/2026 21:40:33] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:40:33,092 127.0.0.1 - - [29/Jun/2026 21:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:41:19,190  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:41:19,219  * Restarting with stat
+ 2026-06-29 21:41:19,330 Creating CatsAndDogs app
+ 2026-06-29 21:41:19,352  * Debugger is active!
+ 2026-06-29 21:41:19,359  * Debugger PIN: 106-781-810
+ 2026-06-29 21:41:33,778  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:41:33,795  * Restarting with stat
+ 2026-06-29 21:41:33,896 Creating CatsAndDogs app
+ 2026-06-29 21:41:33,918  * Debugger is active!
+ 2026-06-29 21:41:33,925  * Debugger PIN: 106-781-810
+ 2026-06-29 21:41:47,386 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:41:47,396 127.0.0.1 - - [29/Jun/2026 21:41:47] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:41:47,411 127.0.0.1 - - [29/Jun/2026 21:41:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:43:24,077  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:43:24,107  * Restarting with stat
+ 2026-06-29 21:43:24,223 Creating CatsAndDogs app
+ 2026-06-29 21:43:24,245  * Debugger is active!
+ 2026-06-29 21:43:24,253  * Debugger PIN: 106-781-810
+ 2026-06-29 21:44:39,124 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:44:39,135 127.0.0.1 - - [29/Jun/2026 21:44:39] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:44:39,152 127.0.0.1 - - [29/Jun/2026 21:44:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:45:05,037  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:45:05,065  * Restarting with stat
+ 2026-06-29 21:45:05,180 Creating CatsAndDogs app
+ 2026-06-29 21:45:05,204  * Debugger is active!
+ 2026-06-29 21:45:05,212  * Debugger PIN: 106-781-810
+ 2026-06-29 21:45:20,644  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:45:20,661  * Restarting with stat
+ 2026-06-29 21:45:20,730 Creating CatsAndDogs app
+ 2026-06-29 21:45:20,751  * Debugger is active!
+ 2026-06-29 21:45:20,758  * Debugger PIN: 106-781-810
+ 2026-06-29 21:46:10,143  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 21:46:10,164  * Restarting with stat
+ 2026-06-29 21:46:10,244 Creating CatsAndDogs app
+ 2026-06-29 21:46:10,263  * Debugger is active!
+ 2026-06-29 21:46:10,270  * Debugger PIN: 106-781-810
+ 2026-06-29 21:46:34,627 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:46:34,636 127.0.0.1 - - [29/Jun/2026 21:46:34] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:46:34,651 127.0.0.1 - - [29/Jun/2026 21:46:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 21:46:55,409 127.0.0.1 - - [29/Jun/2026 21:46:55] "[32mPOST /add_booking HTTP/1.1[0m" 302 -
+ 2026-06-29 21:46:55,413 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 21:46:55,413 127.0.0.1 - - [29/Jun/2026 21:46:55] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 21:46:55,914 127.0.0.1 - - [29/Jun/2026 21:46:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:03:23,125 Creating CatsAndDogs app
+ 2026-06-29 22:03:30,058 Creating CatsAndDogs app
+ 2026-06-29 22:03:30,084 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+ 2026-06-29 22:03:30,084 [33mPress CTRL+C to quit[0m
+ 2026-06-29 22:03:30,084  * Restarting with stat
+ 2026-06-29 22:03:30,151 Creating CatsAndDogs app
+ 2026-06-29 22:03:30,167  * Debugger is active!
+ 2026-06-29 22:03:30,177  * Debugger PIN: 106-781-810
+ 2026-06-29 22:03:35,231 Fetched details for pet ID 1: Darth Vader with 2 care types.
+ 2026-06-29 22:03:35,239 127.0.0.1 - - [29/Jun/2026 22:03:35] "GET /pet_details/1 HTTP/1.1" 200 -
+ 2026-06-29 22:03:35,250 127.0.0.1 - - [29/Jun/2026 22:03:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:04:36,222 127.0.0.1 - - [29/Jun/2026 22:04:36] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+ 2026-06-29 22:04:36,225 127.0.0.1 - - [29/Jun/2026 22:04:36] "[32mGET / HTTP/1.1[0m" 302 -
+ 2026-06-29 22:04:36,230 127.0.0.1 - - [29/Jun/2026 22:04:36] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-29 22:04:36,874 127.0.0.1 - - [29/Jun/2026 22:04:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:04:47,218 127.0.0.1 - - [29/Jun/2026 22:04:47] "GET /auth/register HTTP/1.1" 200 -
+ 2026-06-29 22:04:47,440 127.0.0.1 - - [29/Jun/2026 22:04:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:04:53,560 127.0.0.1 - - [29/Jun/2026 22:04:53] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+ 2026-06-29 22:04:53,564 127.0.0.1 - - [29/Jun/2026 22:04:53] "GET /auth/login HTTP/1.1" 200 -
+ 2026-06-29 22:04:53,580 127.0.0.1 - - [29/Jun/2026 22:04:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:04:57,596 127.0.0.1 - - [29/Jun/2026 22:04:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+ 2026-06-29 22:04:57,599 Fetched 0 pets for user test (ID: 2)
+ 2026-06-29 22:04:57,602 127.0.0.1 - - [29/Jun/2026 22:04:57] "GET / HTTP/1.1" 200 -
+ 2026-06-29 22:04:57,621 127.0.0.1 - - [29/Jun/2026 22:04:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:05:28,374 Attempting to add pet: Name=browndog, Species=dog, Breed=labradore, Year of Birth=2020, Owner ID=2
+ 2026-06-29 22:05:28,376 127.0.0.1 - - [29/Jun/2026 22:05:28] "[32mPOST /add_pet HTTP/1.1[0m" 302 -
+ 2026-06-29 22:05:28,379 Fetched 1 pets for user test (ID: 2)
+ 2026-06-29 22:05:28,380 127.0.0.1 - - [29/Jun/2026 22:05:28] "GET / HTTP/1.1" 200 -
+ 2026-06-29 22:05:28,699 127.0.0.1 - - [29/Jun/2026 22:05:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:07:24,851 Fetched details for pet ID 2: browndog with 0 care types.
+ 2026-06-29 22:07:24,852 127.0.0.1 - - [29/Jun/2026 22:07:24] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-29 22:07:25,208 127.0.0.1 - - [29/Jun/2026 22:07:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:07:37,149 127.0.0.1 - - [29/Jun/2026 22:07:37] "[32mPOST /add_booking HTTP/1.1[0m" 302 -
+ 2026-06-29 22:07:37,152 Fetched details for pet ID 2: browndog with 0 care types.
+ 2026-06-29 22:07:37,152 127.0.0.1 - - [29/Jun/2026 22:07:37] "GET /pet_details/2 HTTP/1.1" 200 -
+ 2026-06-29 22:07:37,163 127.0.0.1 - - [29/Jun/2026 22:07:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ 2026-06-29 22:11:25,314  * Detected change in '/Users/philip.y/programming/2026-Y12-SE-PhilipYaroshchyk-sep-application/flaskr/home.py', reloading
+ 2026-06-29 22:11:25,348  * Restarting with stat
+ 2026-06-29 22:11:25,455 Creating CatsAndDogs app
+ 2026-06-29 22:11:25,477  * Debugger is active!
+ 2026-06-29 22:11:25,485  * Debugger PIN: 106-781-810
