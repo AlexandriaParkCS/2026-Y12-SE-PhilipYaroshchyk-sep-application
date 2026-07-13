@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Find a sitter{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="get" action="{{ url_for('search.sitters') }}">
+    <label for="q">Search sitters by name, postcode or about</label>
+    <input name="q" id="q" value="{{ query }}">
+    <input type="submit" value="Search">
+  </form>
+
+  {% if query %}
+    <ul class="search-results">
+      {% for sitter in results %}
+        <li>
+          {% if sitter['photo'] %}<img src="{{ sitter['photo'] }}" alt="{{ sitter['username'] }}" width="60">{% endif %}
+          <strong>{{ sitter['username'] }}</strong>
+          {% if sitter['postcode'] %} - {{ sitter['postcode'] }}{% endif %}
+          {% if sitter['avg_score'] %}
+            <span>★ {{ sitter['avg_score'] }} ({{ sitter['review_count'] }} review{{ 's' if sitter['review_count'] != 1 }})</span>
+          {% else %}
+            <span>No reviews yet</span>
+          {% endif %}
+          {% if sitter['about'] %}<p>{{ sitter['about'] }}</p>{% endif %}
+        </li>
+      {% else %}
+        <li>No sitters found for "{{ query }}".</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <a href="{{ url_for('search.pets') }}">Search for pets to sit</a>
+{% endblock %}

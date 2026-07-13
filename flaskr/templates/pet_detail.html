@@ -46,21 +46,57 @@
     {% for booking in bookings %}
       <li>
         {{ booking['start_date'] }} to {{ booking['end_date'] }}
-        - {{ booking['sitter_name'] or 'No sitter assigned' }}
+        - {{ booking['sitter_name'] or 'Awaiting sitter' }}
         - ${{ booking['daily_price'] }}/day
+        {% if booking['sitter_id'] %}
+          {% if booking['review_id'] %}
+            <em>Reviewed</em>
+          {% else %}
+            <form method="post" action="{{ url_for('home.add_review') }}">
+              <input type="hidden" name="booking_id" value="{{ booking['id'] }}">
+              <input type="hidden" name="reviewee_id" value="{{ booking['sitter_id'] }}">
+              <label>Score (1–5) <input type="number" name="score" min="1" max="5" required></label>
+              <label>Comment <textarea name="comment"></textarea></label>
+              <input type="submit" value="Leave review">
+            </form>
+          {% endif %}
+        {% endif %}
       </li>
     {% else %}
       <li>No bookings yet.</li>
     {% endfor %}
   </ul>
 
+  {% if booking_requests %}
+    <h2>Sitter applications</h2>
+    <ul class="booking-requests">
+      {% for req in booking_requests %}
+        <li>
+          {% if req['photo'] %}<img src="{{ req['photo'] }}" alt="{{ req['sitter_name'] }}" width="80">{% endif %}
+          <strong>{{ req['sitter_name'] }}</strong>
+          {% if req['postcode'] %}<span> - {{ req['postcode'] }}</span>{% endif %}
+          {% if req['avg_score'] %}
+            <span>★ {{ req['avg_score'] }} ({{ req['review_count'] }} review{{ 's' if req['review_count'] != 1 }})</span>
+          {% else %}
+            <span>No reviews yet</span>
+          {% endif %}
+          {% if req['about'] %}<p>{{ req['about'] }}</p>{% endif %}
+          <form method="post" action="{{ url_for('home.confirm_booking') }}">
+            <input type="hidden" name="request_id" value="{{ req['request_id'] }}">
+            <input type="submit" value="Confirm this sitter">
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   <form method="post" action="{{ url_for('home.add_booking') }}">
-    <h3>Create a new booking</h3>
+    <h3>Create a new booking request</h3>
     <label for="start_date">Start date</label><input type="date" name="start_date" id="start_date" required>
     <label for="end_date">End date</label><input type="date" name="end_date" id="end_date" required>
     <label for="daily_price">Daily price</label><input type="number" step="0.01" min="0" name="daily_price" id="daily_price" required>
     <input type="hidden" name="pet_id" value="{{ pet['id'] }}">
-    <input type="submit" value="Book">
+    <input type="submit" value="Request Booking">
   </form>
 
   <a href="{{ url_for('home.index') }}">Back to home page</a>

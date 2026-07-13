@@ -39,3 +39,25 @@ CREATE TABLE IF NOT EXISTS bookings (
     FOREIGN KEY (pet_id) REFERENCES pets (id),
     FOREIGN KEY (sitter_id) REFERENCES users (id)
 );
+
+CREATE TABLE IF NOT EXISTS reviews (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    booking_id INTEGER NOT NULL,
+    reviewer_id INTEGER NOT NULL,
+    reviewee_id INTEGER NOT NULL,
+    score INTEGER NOT NULL CHECK (score >= 1 AND score <= 5),
+    comment TEXT,
+    FOREIGN KEY (booking_id) REFERENCES bookings (id),
+    FOREIGN KEY (reviewer_id) REFERENCES users (id),
+    FOREIGN KEY (reviewee_id) REFERENCES users (id),
+    UNIQUE (booking_id, reviewer_id)
+);
+
+CREATE TABLE IF NOT EXISTS booking_requests (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    booking_id INTEGER NOT NULL,
+    sitter_id INTEGER NOT NULL,
+    FOREIGN KEY (booking_id) REFERENCES bookings (id),
+    FOREIGN KEY (sitter_id) REFERENCES users (id),
+    UNIQUE (booking_id, sitter_id)
+);

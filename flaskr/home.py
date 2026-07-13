@@ -105,6 +105,124 @@ def upload_photo():
     return redirect(url_for("home.index"))
 
 
+@bp.route("/apply_for_booking", methods=("POST",))
+@auth.login_required
+def apply_for_booking():
+    if not g.user["about"] or not g.user["postcode"] or not g.user["photo"]:
+        flash("Please complete your profile (photo, postcode, and about) before applying for bookings.", "error")
+        return redirect(url_for("home.index"))
+
+    booking_id = request.form["booking_id"]
+    db = get_db()
+
+    booking = db.execute(
+        "SELECT * FROM bookings WHERE id = ? AND sitter_id IS NULL;", (booking_id,)
+    ).fetchone()
+
+    if booking is None:
+        flash("Booking not found or already confirmed.", "error")
+        return redirect(url_for("home.index"))
+
+    try:
+        db.execute(
+            "INSERT INTO booking_requests (booking_id, sitter_id) VALUES (?, ?);",
+            (booking_id, g.user["id"]),
+        )
+        db.commit()
+        flash("Application submitted!", "success")
+    except Exception as e:
+        flash(f"Error submitting application: {e}", "error")
+
+    return redirect(url_for("home.index"))
+
+
+@bp.route("/confirm_booking", methods=("POST",))
+@auth.login_required
+def confirm_booking():
+    request_id = request.form["request_id"]
+    db = get_db()
+
+    booking_request = db.execute(
+        "SELECT booking_requests.*, bookings.pet_id FROM booking_requests "
+        "JOIN bookings ON bookings.id = booking_requests.booking_id "
+        "JOIN pets ON pets.id = bookings.pet_id "
+        "WHERE booking_requests.id = ? AND pets.owner_id = ?;",
+        (request_id, g.user["id"]),
+    ).fetchone()
+
+    if booking_request is None:
+        flash("Request not found or you do not have permission to confirm it.", "error")
+        return redirect(url_for("home.index"))
+
+    try:
+        db.execute(
+            "UPDATE bookings SET sitter_id = ? WHERE id = ?;",
+            (booking_request["sitter_id"], booking_request["booking_id"]),
+        )
+        db.commit()
+        flash("Booking confirmed!", "success")
+    except Exception as e:
+        flash(f"Error confirming booking: {e}", "error")
+
+    return redirect(url_for("home.pet_details", pet_id=booking_request["pet_id"]))
+
+
+@bp.route("/sittings")
+@auth.login_required
+def sittings():
+    db = get_db()
+    bookings = db.execute(
+        "SELECT bookings.*, pets.name AS pet_name, pets.species, pets.breed, "
+        "users.id AS owner_id, users.username AS owner_name, "
+        "reviews.id AS review_id "
+        "FROM bookings "
+        "JOIN pets ON pets.id = bookings.pet_id "
+        "JOIN users ON users.id = pets.owner_id "
+        "LEFT JOIN reviews ON reviews.booking_id = bookings.id AND reviews.reviewer_id = ? "
+        "WHERE bookings.sitter_id = ? "
+        "ORDER BY bookings.start_date;",
+        (g.user["id"], g.user["id"]),
+    ).fetchall()
+    return render_template("sittings.html", bookings=bookings)
+
+
+@bp.route("/add_review", methods=("POST",))
+@auth.login_required
+def add_review():
+    booking_id = request.form["booking_id"]
+    reviewee_id = request.form["reviewee_id"]
+    score = request.form["score"]
+    comment = request.form.get("comment", "")
+
+    db = get_db()
+
+    booking = db.execute(
+        "SELECT bookings.*, pets.owner_id FROM bookings "
+        "JOIN pets ON pets.id = bookings.pet_id "
+        "WHERE bookings.id = ? AND bookings.sitter_id IS NOT NULL "
+        "AND (pets.owner_id = ? OR bookings.sitter_id = ?);",
+        (booking_id, g.user["id"], g.user["id"]),
+    ).fetchone()
+
+    if booking is None:
+        flash("Booking not found or not eligible for review.", "error")
+        return redirect(url_for("home.index"))
+
+    try:
+        db.execute(
+            "INSERT INTO reviews (booking_id, reviewer_id, reviewee_id, score, comment) VALUES (?, ?, ?, ?, ?);",
+            (booking_id, g.user["id"], reviewee_id, int(score), comment),
+        )
+        db.commit()
+        flash("Review submitted!", "success")
+    except Exception as e:
+        flash(f"Error submitting review: {e}", "error")
+
+    if booking["owner_id"] == g.user["id"]:
+        return redirect(url_for("home.pet_details", pet_id=booking["pet_id"]))
+    return redirect(url_for("home.sittings"))
+
+
 @bp.route("/about", methods=("GET", "POST"))
 def about():
     return render_template("about.html")
@@ -166,9 +284,26 @@ def pet_details(pet_id):
     ).fetchall()
 
     g.bookings = db.execute(
-        "SELECT bookings.*, users.username AS sitter_name FROM bookings "
+        "SELECT bookings.*, users.username AS sitter_name, "
+        "reviews.id AS review_id "
+        "FROM bookings "
         "LEFT JOIN users ON users.id = bookings.sitter_id "
+        "LEFT JOIN reviews ON reviews.booking_id = bookings.id AND reviews.reviewer_id = ? "
         "WHERE bookings.pet_id = ?;",
+        (g.user["id"], pet_id),
+    ).fetchall()
+
+    g.booking_requests = db.execute(
+        "SELECT booking_requests.id AS request_id, booking_requests.booking_id, "
+        "users.id AS sitter_id, users.username AS sitter_name, "
+        "users.postcode, users.about, users.photo, "
+        "ROUND(AVG(reviews.score), 1) AS avg_score, COUNT(reviews.id) AS review_count "
+        "FROM booking_requests "
+        "JOIN bookings ON bookings.id = booking_requests.booking_id "
+        "JOIN users ON users.id = booking_requests.sitter_id "
+        "LEFT JOIN reviews ON reviews.reviewee_id = users.id "
+        "WHERE bookings.pet_id = ? AND bookings.sitter_id IS NULL "
+        "GROUP BY booking_requests.id;",
         (pet_id,),
     ).fetchall()
 
@@ -179,6 +314,7 @@ def pet_details(pet_id):
         pet=g.pet,
         care_types=g.care_types,
         bookings=g.bookings,
+        booking_requests=g.booking_requests,
     )
 
 

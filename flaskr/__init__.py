@@ -43,6 +43,9 @@ def create_app(test_config=None):
     from . import home
     app.register_blueprint(home.bp)
 
+    from . import search
+    app.register_blueprint(search.bp)
+
     # ensure the instance folder exists
     os.makedirs(app.instance_path, exist_ok=True)
 

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Find pets to sit{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="get" action="{{ url_for('search.pets') }}">
+    <label for="q">Search pets by name, species or breed</label>
+    <input name="q" id="q" value="{{ query }}">
+
+    <label for="min_price">Min price ($/day)</label>
+    <input type="number" name="min_price" id="min_price" min="0" value="{{ min_price }}">
+
+    <label for="max_price">Max price ($/day)</label>
+    <input type="number" name="max_price" id="max_price" min="0" value="{{ max_price }}">
+
+    <input type="submit" value="Search">
+  </form>
+
+  {% if query %}
+    <ul class="search-results">
+      {% for result in results %}
+        <li>
+          <strong>{{ result['name'] }}</strong> ({{ result['species'] }}, {{ result['breed'] }}) - born {{ result['yob'] }}
+          <span>Owner: {{ result['owner_name'] }}</span>
+          <span>${{ result['daily_price'] }}/day &mdash; {{ result['start_date'] }} to {{ result['end_date'] }}</span>
+          {% if profile_complete %}
+            <form method="post" action="{{ url_for('home.apply_for_booking') }}">
+              <input type="hidden" name="booking_id" value="{{ result['booking_id'] }}">
+              <input type="submit" value="Apply">
+            </form>
+          {% else %}
+            <p><a href="{{ url_for('home.index') }}">Complete your profile to apply</a></p>
+          {% endif %}
+        </li>
+      {% else %}
+        <li>No pets found for "{{ query }}".</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <a href="{{ url_for('search.sitters') }}">Search for sitters</a>
+{% endblock %}

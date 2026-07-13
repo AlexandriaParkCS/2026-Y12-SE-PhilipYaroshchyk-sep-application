@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}My sittings{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <ul class="sittings">
+    {% for booking in bookings %}
+      <li>
+        <strong>{{ booking['pet_name'] }}</strong> ({{ booking['species'] }}, {{ booking['breed'] }})
+        <span>Owner: {{ booking['owner_name'] }}</span>
+        <span>{{ booking['start_date'] }} to {{ booking['end_date'] }}</span>
+        <span>${{ booking['daily_price'] }}/day</span>
+        {% if booking['review_id'] %}
+          <em>Reviewed</em>
+        {% else %}
+          <form method="post" action="{{ url_for('home.add_review') }}">
+            <input type="hidden" name="booking_id" value="{{ booking['id'] }}">
+            <input type="hidden" name="reviewee_id" value="{{ booking['owner_id'] }}">
+            <label>Score (1–5) <input type="number" name="score" min="1" max="5" required></label>
+            <label>Comment <textarea name="comment"></textarea></label>
+            <input type="submit" value="Leave review">
+          </form>
+        {% endif %}
+      </li>
+    {% else %}
+      <li>No sitting commitments yet.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
