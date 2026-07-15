@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Messages{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <ul class="threads">
+    {% for thread in threads %}
+      <li>
+        <a href="{{ url_for('messages.thread', user_id=thread['other_id']) }}">
+          Conversion with <strong>{{ thread['other_name'] }}</strong>
+          <!-- <span>{{ thread['last_body'] }}</span> -->
+        </a>
+      </li>
+    {% else %}
+      <li>No conversations yet.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

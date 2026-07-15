@@ -49,6 +49,7 @@
         - {{ booking['sitter_name'] or 'Awaiting sitter' }}
         - ${{ booking['daily_price'] }}/day
         {% if booking['sitter_id'] %}
+          <a href="{{ url_for('messages.thread', user_id=booking['sitter_id']) }}">Message sitter</a>
           {% if booking['review_id'] %}
             <em>Reviewed</em>
           {% else %}
@@ -81,6 +82,7 @@
             <span>No reviews yet</span>
           {% endif %}
           {% if req['about'] %}<p>{{ req['about'] }}</p>{% endif %}
+          <a href="{{ url_for('messages.thread', user_id=req['sitter_id']) }}">Message</a>
           <form method="post" action="{{ url_for('home.confirm_booking') }}">
             <input type="hidden" name="request_id" value="{{ req['request_id'] }}">
             <input type="submit" value="Confirm this sitter">

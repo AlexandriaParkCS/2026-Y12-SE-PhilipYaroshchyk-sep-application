@@ -10,6 +10,7 @@
       <li><a href="{{ url_for('search.sitters') }}">Find a sitter</a></li>
       <li><a href="{{ url_for('search.pets') }}">Find pets to sit</a></li>
       <li><a href="{{ url_for('home.sittings') }}">My sittings</a></li>
+      <li><a href="{{ url_for('messages.inbox') }}">Messages</a></li>
       <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
     {% else %}
       <li><a href="{{ url_for('auth.register') }}">Register</a></li>

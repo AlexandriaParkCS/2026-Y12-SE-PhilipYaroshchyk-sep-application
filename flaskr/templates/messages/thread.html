@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Conversation with {{ other_user['username'] }}{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <ul class="messages">
+    {% for message in messages %}
+      <li class="{{ 'mine' if message['sender_id'] == g.user['id'] else 'theirs' }}">
+        <strong>{{ g.user['username'] if message['sender_id'] == g.user['id'] else other_user['username'] }}:</strong>
+        {{ message['body'] }}
+        <span>{{ message['created_at'] }}</span>
+      </li>
+    {% else %}
+      <li>No messages yet. Say hello!</li>
+    {% endfor %}
+  </ul>
+
+  <form method="post" action="{{ url_for('messages.thread', user_id=other_user['id']) }}">
+    <label for="body">Message</label>
+    <textarea name="body" id="body" required></textarea>
+    <input type="submit" value="Send">
+  </form>
+
+  <a href="{{ url_for('messages.inbox') }}">Back to messages</a>
+{% endblock %}

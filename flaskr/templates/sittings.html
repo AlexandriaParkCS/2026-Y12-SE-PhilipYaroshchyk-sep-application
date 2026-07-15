@@ -12,6 +12,7 @@
         <span>Owner: {{ booking['owner_name'] }}</span>
         <span>{{ booking['start_date'] }} to {{ booking['end_date'] }}</span>
         <span>${{ booking['daily_price'] }}/day</span>
+        <a href="{{ url_for('messages.thread', user_id=booking['owner_id']) }}">Message owner</a>
         {% if booking['review_id'] %}
           <em>Reviewed</em>
         {% else %}
