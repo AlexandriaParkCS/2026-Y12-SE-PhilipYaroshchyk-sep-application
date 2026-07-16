@@ -1,26 +1,58 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - YourCatsAndDogs</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-<nav>
-  <h1>YourCatsAndDogs</h1>
-  <ul>
-    {% if g.user %}
-      <li><span>Welcome, {{ g.user['username'] }}</span></li>
-      <li><a href="{{ url_for('home.index') }}">Home</a></li>
-      <li><a href="{{ url_for('search.sitters') }}">Find a sitter</a></li>
-      <li><a href="{{ url_for('search.pets') }}">Find pets to sit</a></li>
-      <li><a href="{{ url_for('home.sittings') }}">My sittings</a></li>
-      <li><a href="{{ url_for('messages.inbox') }}">Messages</a></li>
-      <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
-    {% else %}
-      <li><a href="{{ url_for('auth.register') }}">Register</a></li>
-      <li><a href="{{ url_for('auth.login') }}">Login</a></li>
-    {% endif %}
-  </ul>
-</nav>
-<section class="content">
-  <header>
-    {% block header %}{% endblock %}
-  </header>
-  {% block content %}{% endblock %}
-</section>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% endblock %} - YourCatsAndDogs</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('home.index') if g.user else url_for('auth.login') }}">
+        <img src="{{ url_for('static', filename='logo.svg') }}" alt="YourCatsAndDogs" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          {% if g.user %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('home.index') }}">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('search.sitters') }}">Find a sitter</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('search.pets') }}">Find pets to sit</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('home.sittings') }}">My sittings</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('messages.inbox') }}">Messages</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a></li>
+          {% else %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.register') }}">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Login</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container content">
+    <header class="my-4">
+      {% block header %}{% endblock %}
+    </header>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ 'danger' if category == 'error' else category if category in ['success', 'warning', 'info'] else 'secondary' }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

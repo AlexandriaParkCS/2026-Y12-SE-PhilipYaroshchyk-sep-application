@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 74" role="img" aria-label="YourCatsAndDogs">
+  <!-- Cat -->
+  <polygon points="16,26 24,3 34,24" fill="#fff"/>
+  <polygon points="50,24 60,3 68,26" fill="#fff"/>
+  <circle cx="42" cy="40" r="24" fill="none" stroke="#fff" stroke-width="3.5"/>
+  <circle cx="33" cy="36" r="3" fill="#fff"/>
+  <circle cx="51" cy="36" r="3" fill="#fff"/>
+  <polygon points="39,46 45,46 42,50" fill="#fff"/>
+  <path d="M42,50 Q42,55 35,55" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M42,50 Q42,55 49,55" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="13" y1="41" x2="26" y2="39" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="12" y1="47" x2="26" y2="46" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="71" y1="41" x2="58" y2="39" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="47" x2="58" y2="46" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Dog -->
+  <path d="M 93,25 C 80,27 74,36 77,48 C 79,62 87,68 92,62 C 95,54 94,36 93,25 Z" fill="#fff"/>
+  <path d="M 123,25 C 136,27 142,36 139,48 C 137,62 129,68 124,62 C 121,54 122,36 123,25 Z" fill="#fff"/>
+  <circle cx="108" cy="42" r="24" fill="none" stroke="#fff" stroke-width="3.5"/>
+  <circle cx="99" cy="38" r="3" fill="#fff"/>
+  <circle cx="117" cy="38" r="3" fill="#fff"/>
+  <path d="M103,47 Q108,44 113,47 Q113,52 108,53 Q103,52 103,47 Z" fill="#fff"/>
+  <line x1="108" y1="53" x2="108" y2="57" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M108,57 Q108,61 101,59" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M108,57 Q108,61 115,59" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Wordmark -->
+  <text x="168" y="49" font-family="Trebuchet MS, Verdana, sans-serif" font-weight="700" font-size="30" fill="#fff">YourCatsAndDogs</text>
+</svg>

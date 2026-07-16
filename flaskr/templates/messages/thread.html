@@ -5,22 +5,24 @@
 {% endblock %}
 
 {% block content %}
-  <ul class="messages">
+  <ul class="list-group mb-3">
     {% for message in messages %}
-      <li class="{{ 'mine' if message['sender_id'] == g.user['id'] else 'theirs' }}">
+      <li class="list-group-item {{ 'list-group-item-primary' if message['sender_id'] == g.user['id'] else '' }}">
         <strong>{{ g.user['username'] if message['sender_id'] == g.user['id'] else other_user['username'] }}:</strong>
         {{ message['body'] }}
-        <span>{{ message['created_at'] }}</span>
+        <span class="text-muted small d-block">{{ message['created_at'] }}</span>
       </li>
     {% else %}
-      <li>No messages yet. Say hello!</li>
+      <li class="list-group-item">No messages yet. Say hello!</li>
     {% endfor %}
   </ul>
 
-  <form method="post" action="{{ url_for('messages.thread', user_id=other_user['id']) }}">
-    <label for="body">Message</label>
-    <textarea name="body" id="body" required></textarea>
-    <input type="submit" value="Send">
+  <form method="post" action="{{ url_for('messages.thread', user_id=other_user['id']) }}" class="mb-3">
+    <div class="mb-2">
+      <label for="body" class="form-label">Message</label>
+      <textarea class="form-control" name="body" id="body" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
   </form>
 
   <a href="{{ url_for('messages.inbox') }}">Back to messages</a>

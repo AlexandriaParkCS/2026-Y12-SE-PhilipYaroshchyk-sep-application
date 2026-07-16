@@ -5,16 +5,15 @@
 {% endblock %}
 
 {% block content %}
-  <ul class="threads">
+  <ul class="list-group">
     {% for thread in threads %}
-      <li>
+      <li class="list-group-item">
         <a href="{{ url_for('messages.thread', user_id=thread['other_id']) }}">
           Conversion with <strong>{{ thread['other_name'] }}</strong>
-          <!-- <span>{{ thread['last_body'] }}</span> -->
         </a>
       </li>
     {% else %}
-      <li>No conversations yet.</li>
+      <li class="list-group-item">No conversations yet.</li>
     {% endfor %}
   </ul>
 {% endblock %}

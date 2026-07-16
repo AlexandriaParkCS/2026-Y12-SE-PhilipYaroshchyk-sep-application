@@ -1,56 +1,74 @@
 {% extends 'base.html' %}
 
 {% block header %}
-  <h1>{% block title %}Home page{% endblock %}</h1>
+  <h1>{% block title %}{{ g.user['username'] }}'s Home page{% endblock %}</h1>
 {% endblock %}
 
 {% block content %}
 
-  <div class="user-info">
-    <p>Username: {{ g.user['username'] }}</p>
+  <div class="user-info mb-4">
 
-    <form method="post" action="{{ url_for('home.upload_photo') }}" enctype="multipart/form-data">
+    <form method="post" action="{{ url_for('home.upload_photo') }}" enctype="multipart/form-data" class="mb-4">
       {% if g.user['photo'] %}
-        <img src="{{ g.user['photo'] }}" alt="Profile photo" width="120">
+        <img src="{{ g.user['photo'] }}" alt="Profile photo" width="120" class="d-block rounded mb-2">
       {% endif %}
-      <label for="photo">Photo</label>
-      <input type="file" name="photo" id="photo" accept="image/png,image/jpeg,image/gif">
-      <input type="submit" value="Upload photo">
+      <div class="mb-2">
+        <label for="photo" class="form-label">Photo</label>
+        <input class="form-control" type="file" name="photo" id="photo" accept="image/png,image/jpeg,image/gif">
+      </div>
+      <button type="submit" class="btn btn-secondary">Upload photo</button>
     </form>
 
-    <form method="post" action="{{ url_for('home.update_profile') }}">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" value="{{ g.user['email'] }}" required>
+    <form method="post" action="{{ url_for('home.update_profile') }}" class="col-12 col-md-6 col-lg-4">
+      <div class="mb-2">
+        <label for="email" class="form-label">Email</label>
+        <input class="form-control" type="email" name="email" id="email" value="{{ g.user['email'] }}" required>
+      </div>
 
-      <label for="user_type">User type</label>
-      <select name="user_type" id="user_type">
-        <option value="owner" {% if not g.user['is_sitter'] %}selected{% endif %}>Pet Owner</option>
-        <option value="sitter" {% if g.user['is_sitter'] %}selected{% endif %}>Pet Sitter</option>
-      </select>
+      <div class="mb-2">
+        <label for="postcode" class="form-label">Postcode</label>
+        <input class="form-control" name="postcode" id="postcode" value="{{ g.user['postcode'] or '' }}">
+      </div>
 
-      <label for="postcode">Postcode</label>
-      <input name="postcode" id="postcode" value="{{ g.user['postcode'] or '' }}">
+      <div class="mb-2">
+        <label for="about" class="form-label">About</label>
+        <textarea class="form-control" name="about" id="about">{{ g.user['about'] or '' }}</textarea>
+      </div>
 
-      <label for="about">About</label>
-      <textarea name="about" id="about">{{ g.user['about'] or '' }}</textarea>
-
-      <input type="submit" value="Update profile">
+      <button type="submit" class="btn btn-primary">Update profile</button>
     </form>
   </div>
 
-  <ul class="pets">
+  <h2>Your pets</h2>
+  <ul class="list-group mb-4">
     {% for pet in g.pets %}
-      <li>{{ pet['name'] }} ({{ pet['species'] }}, {{ pet['breed'] }}) - born {{ pet['yob'] }} <button type="button" onclick="location.href='{{ url_for('home.pet_details', pet_id=pet['id']) }}'">Details</button></li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        {{ pet['name'] }} ({{ pet['species'] }}, {{ pet['breed'] }}) - born {{ pet['yob'] }}
+        <button type="button" class="btn btn-sm btn-outline-primary" onclick="location.href='{{ url_for('home.pet_details', pet_id=pet['id']) }}'">Details</button>
+      </li>
     {% else %}
-      <li>No pets yet.</li>
+      <li class="list-group-item">No pets yet.</li>
     {% endfor %}
   </ul>
 
-  <form method="post" action="{{ url_for('home.add_pet') }}">
-    <label for="name">Name</label><input name="name" id="name" required>
-    <label for="species">Species</label><input name="species" id="species" required>
-    <label for="breed">Breed</label><input name="breed" id="breed" required>
-    <label for="yob">Year of Birth</label><input name="yob" id="yob" type="number" required>
-    <input type="submit" value="Add">
+  <form method="post" action="{{ url_for('home.add_pet') }}" class="col-12 col-md-6 col-lg-4">
+    <h3>Add a pet</h3>
+    <div class="mb-2">
+      <label for="name" class="form-label">Name</label>
+      <input class="form-control" name="name" id="name" required>
+    </div>
+    <div class="mb-2">
+      <label for="species" class="form-label">Species</label>
+      <input class="form-control" name="species" id="species" required>
+    </div>
+    <div class="mb-2">
+      <label for="breed" class="form-label">Breed</label>
+      <input class="form-control" name="breed" id="breed" required>
+    </div>
+    <div class="mb-2">
+      <label for="yob" class="form-label">Year of Birth</label>
+      <input class="form-control" name="yob" id="yob" type="number" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
   </form>
 {% endblock %}

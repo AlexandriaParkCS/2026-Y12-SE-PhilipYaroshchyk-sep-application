@@ -26,7 +26,7 @@ def sitters():
             "ROUND(AVG(reviews.score), 1) AS avg_score, COUNT(reviews.id) AS review_count "
             "FROM users "
             "LEFT JOIN reviews ON reviews.reviewee_id = users.id "
-            "WHERE users.is_sitter = 1 AND users.id != ? "
+            "WHERE users.id != ? "
             "AND (users.username LIKE ? OR users.postcode LIKE ? OR users.about LIKE ?) "
             "GROUP BY users.id;",
             (g.user["id"], like, like, like),

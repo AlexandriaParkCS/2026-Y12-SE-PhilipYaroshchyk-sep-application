@@ -53,7 +53,6 @@ def update_profile():
     email = request.form["email"]
     postcode = request.form.get("postcode") or None
     about = request.form.get("about", "")
-    is_sitter = request.form.get("user_type") == "sitter"
 
     db = get_db()
     error = None
@@ -64,8 +63,8 @@ def update_profile():
     if error is None:
         try:
             db.execute(
-                "UPDATE users SET email = ?, postcode = ?, about = ?, is_sitter = ? WHERE id = ?",
-                (email, postcode, about, is_sitter, g.user["id"]),
+                "UPDATE users SET email = ?, postcode = ?, about = ? WHERE id = ?",
+                (email, postcode, about, g.user["id"]),
             )
             db.commit()
             flash("Profile updated successfully!", "success")

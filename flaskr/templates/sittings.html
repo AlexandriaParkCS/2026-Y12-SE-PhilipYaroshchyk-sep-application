@@ -5,9 +5,9 @@
 {% endblock %}
 
 {% block content %}
-  <ul class="sittings">
+  <ul class="list-group">
     {% for booking in bookings %}
-      <li>
+      <li class="list-group-item">
         <strong>{{ booking['pet_name'] }}</strong> ({{ booking['species'] }}, {{ booking['breed'] }})
         <span>Owner: {{ booking['owner_name'] }}</span>
         <span>{{ booking['start_date'] }} to {{ booking['end_date'] }}</span>
@@ -16,17 +16,25 @@
         {% if booking['review_id'] %}
           <em>Reviewed</em>
         {% else %}
-          <form method="post" action="{{ url_for('home.add_review') }}">
+          <form method="post" action="{{ url_for('home.add_review') }}" class="row g-2 align-items-end mt-2">
             <input type="hidden" name="booking_id" value="{{ booking['id'] }}">
             <input type="hidden" name="reviewee_id" value="{{ booking['owner_id'] }}">
-            <label>Score (1–5) <input type="number" name="score" min="1" max="5" required></label>
-            <label>Comment <textarea name="comment"></textarea></label>
-            <input type="submit" value="Leave review">
+            <div class="col-auto">
+              <label class="form-label mb-0">Score (1–5)</label>
+              <input class="form-control" type="number" name="score" min="1" max="5" required>
+            </div>
+            <div class="col-auto">
+              <label class="form-label mb-0">Comment</label>
+              <textarea class="form-control" name="comment"></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary">Leave review</button>
+            </div>
           </form>
         {% endif %}
       </li>
     {% else %}
-      <li>No sitting commitments yet.</li>
+      <li class="list-group-item">No sitting commitments yet.</li>
     {% endfor %}
   </ul>
 {% endblock %}

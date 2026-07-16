@@ -5,17 +5,21 @@
 {% endblock %}
 
 {% block content %}
-  <form method="get" action="{{ url_for('search.sitters') }}">
-    <label for="q">Search sitters by name, postcode or about</label>
-    <input name="q" id="q" value="{{ query }}">
-    <input type="submit" value="Search">
+  <form method="get" action="{{ url_for('search.sitters') }}" class="row g-2 align-items-end mb-4">
+    <div class="col-12 col-md-8">
+      <label for="q" class="form-label">Search sitters by name, postcode or about</label>
+      <input class="form-control" name="q" id="q" value="{{ query }}">
+    </div>
+    <div class="col-12 col-md-2">
+      <button type="submit" class="btn btn-primary w-100">Search</button>
+    </div>
   </form>
 
   {% if query %}
-    <ul class="search-results">
+    <ul class="list-group mb-3">
       {% for sitter in results %}
-        <li>
-          {% if sitter['photo'] %}<img src="{{ sitter['photo'] }}" alt="{{ sitter['username'] }}" width="60">{% endif %}
+        <li class="list-group-item">
+          {% if sitter['photo'] %}<img src="{{ sitter['photo'] }}" alt="{{ sitter['username'] }}" width="60" class="rounded me-2">{% endif %}
           <strong>{{ sitter['username'] }}</strong>
           {% if sitter['postcode'] %} - {{ sitter['postcode'] }}{% endif %}
           {% if sitter['avg_score'] %}
@@ -23,10 +27,10 @@
           {% else %}
             <span>No reviews yet</span>
           {% endif %}
-          {% if sitter['about'] %}<p>{{ sitter['about'] }}</p>{% endif %}
+          {% if sitter['about'] %}<p class="mb-0">{{ sitter['about'] }}</p>{% endif %}
         </li>
       {% else %}
-        <li>No sitters found for "{{ query }}".</li>
+        <li class="list-group-item">No sitters found for "{{ query }}".</li>
       {% endfor %}
     </ul>
   {% endif %}

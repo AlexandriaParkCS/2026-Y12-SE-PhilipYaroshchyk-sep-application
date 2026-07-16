@@ -5,37 +5,45 @@
 {% endblock %}
 
 {% block content %}
-  <form method="get" action="{{ url_for('search.pets') }}">
-    <label for="q">Search pets by name, species or breed</label>
-    <input name="q" id="q" value="{{ query }}">
+  <form method="get" action="{{ url_for('search.pets') }}" class="row g-2 align-items-end mb-4">
+    <div class="col-12 col-md-6">
+      <label for="q" class="form-label">Search pets by name, species or breed</label>
+      <input class="form-control" name="q" id="q" value="{{ query }}">
+    </div>
 
-    <label for="min_price">Min price ($/day)</label>
-    <input type="number" name="min_price" id="min_price" min="0" value="{{ min_price }}">
+    <div class="col-6 col-md-2">
+      <label for="min_price" class="form-label">Min price ($/day)</label>
+      <input class="form-control" type="number" name="min_price" id="min_price" min="0" value="{{ min_price }}">
+    </div>
 
-    <label for="max_price">Max price ($/day)</label>
-    <input type="number" name="max_price" id="max_price" min="0" value="{{ max_price }}">
+    <div class="col-6 col-md-2">
+      <label for="max_price" class="form-label">Max price ($/day)</label>
+      <input class="form-control" type="number" name="max_price" id="max_price" min="0" value="{{ max_price }}">
+    </div>
 
-    <input type="submit" value="Search">
+    <div class="col-12 col-md-2">
+      <button type="submit" class="btn btn-primary w-100">Search</button>
+    </div>
   </form>
 
   {% if query %}
-    <ul class="search-results">
+    <ul class="list-group mb-3">
       {% for result in results %}
-        <li>
+        <li class="list-group-item">
           <strong>{{ result['name'] }}</strong> ({{ result['species'] }}, {{ result['breed'] }}) - born {{ result['yob'] }}
           <span>Owner: {{ result['owner_name'] }}</span>
           <span>${{ result['daily_price'] }}/day &mdash; {{ result['start_date'] }} to {{ result['end_date'] }}</span>
           {% if profile_complete %}
-            <form method="post" action="{{ url_for('home.apply_for_booking') }}">
+            <form method="post" action="{{ url_for('home.apply_for_booking') }}" class="mt-2">
               <input type="hidden" name="booking_id" value="{{ result['booking_id'] }}">
-              <input type="submit" value="Apply">
+              <button type="submit" class="btn btn-sm btn-primary">Apply</button>
             </form>
           {% else %}
-            <p><a href="{{ url_for('home.index') }}">Complete your profile to apply</a></p>
+            <p class="mb-0"><a href="{{ url_for('home.index') }}">Complete your profile to apply</a></p>
           {% endif %}
         </li>
       {% else %}
-        <li>No pets found for "{{ query }}".</li>
+        <li class="list-group-item">No pets found for "{{ query }}".</li>
       {% endfor %}
     </ul>
   {% endif %}
