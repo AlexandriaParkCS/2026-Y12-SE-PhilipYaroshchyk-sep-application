@@ -9,7 +9,7 @@
     {% for thread in threads %}
       <li class="list-group-item">
         <a href="{{ url_for('messages.thread', user_id=thread['other_id']) }}">
-          Conversion with <strong>{{ thread['other_name'] }}</strong>
+          Conversation with <strong>{{ thread['other_name'] }}</strong>
         </a>
       </li>
     {% else %}
