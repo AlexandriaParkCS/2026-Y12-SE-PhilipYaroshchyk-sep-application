@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Privacy Policy{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <div class="content">
+    We know your privacy matters to you, so here at YourCatsAndDogs, we only collect what actually needs to work (the minimum information)
+    — your username, email, postcode, profile photo, "about" blurb, and whatever you add for your pets, bookings, reviews and messages.
+  </div>  
+
+  <div class="content">
+    We won't sell your data or hand it over to advertisers or any other third party.
+    We try our best to keep it safe.
+  </div>
+
+  <div class="conent">
+    YourCatsAndDogs is a small project, offered as-is with no guarantees attached. 
+    By using it, you're agreeing that you're doing so at your own risk and taking responsibility for how you use it.
+  </div>
+
+
+<a href="{{ url_for('home.index') }}">Back to home page</a>
+
+{% endblock %}

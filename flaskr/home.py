@@ -226,6 +226,9 @@ def add_review():
 def about():
     return render_template("about.html")
 
+@bp.route("/privacy_policy", methods=("GET", "POST"))
+def privacy_policy():
+    return render_template("privacy_policy.html")                                  
 
 @bp.route("/add_pet", methods=("POST",))
 @auth.login_required
