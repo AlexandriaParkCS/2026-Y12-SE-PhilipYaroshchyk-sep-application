@@ -32,6 +32,7 @@
         <li class="list-group-item">
           <strong>{{ result['name'] }}</strong> ({{ result['species'] }}, {{ result['breed'] }}) - born {{ result['yob'] }}
           <span>Owner: {{ result['owner_name'] }}</span>
+          <span>Postcode: {{ result['owner_postcode'] }}</span>
           <span>${{ result['daily_price'] }}/day &mdash; {{ result['start_date'] }} to {{ result['end_date'] }}</span>
           {% if profile_complete %}
             <form method="post" action="{{ url_for('home.apply_for_booking') }}" class="mt-2">

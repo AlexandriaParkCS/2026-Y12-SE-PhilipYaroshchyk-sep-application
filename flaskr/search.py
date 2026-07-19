@@ -48,7 +48,7 @@ def pets():
         like = f"%{query}%"
         sql = (
             "SELECT pets.id, pets.name, pets.species, pets.breed, pets.yob, "
-            "users.username AS owner_name, "
+            "users.username AS owner_name, users.postcode as owner_postcode, "
             "bookings.id AS booking_id, bookings.daily_price, bookings.start_date, bookings.end_date "
             "FROM pets "
             "JOIN users ON users.id = pets.owner_id "
