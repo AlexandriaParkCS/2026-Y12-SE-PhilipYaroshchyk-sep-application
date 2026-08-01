@@ -8,10 +8,8 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
-from werkzeug.security import check_password_hash
-from werkzeug.security import generate_password_hash
 
-from .db import get_db
+from .models import User
 
 bp = Blueprint("auth", __name__, url_prefix="/auth")
 
@@ -21,40 +19,21 @@ def load_logged_in_user():
     if user_id is None:
         g.user = None
     else:
-        g.user = get_db().execute('SELECT * FROM users WHERE id = ?', (user_id,)).fetchone()
+        g.user = User.get_by_id(user_id)
 
 @bp.route("/register", methods=("GET", "POST"))
 def register():
-    
+
     if request.method == "POST":
         username = request.form["username"]
         password = request.form["password"]
         email = request.form["email"]
 
-        db = get_db()
-        error = None
-
-        if not username:
-            error = "Username is required."
-        elif not password:
-            error = "Password is required."
-        elif not email:
-            error = "Email is required."
+        user, error = User.register(username, email, password)
 
         if error is None:
-            try:
-                db.execute(
-                    "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
-                    (username, email, generate_password_hash(password)),
-                )
-                db.commit()
-            except db.IntegrityError:
-                # The username was already taken, which caused the
-                # commit to fail. Show a validation error.
-                error = f"User {username} is already registered."
-            else:
-                # Success, go to the login page.
-                return redirect(url_for("auth.login"))
+            # Success, go to the login page.
+            return redirect(url_for("auth.login"))
 
         flash(error)
 
@@ -62,32 +41,24 @@ def register():
 
 @bp.route("/logout")
 def logout():
-    session.clear()
+    if g.user is not None:
+        g.user.logout()
+    else:
+        session.clear()
     return redirect(url_for("home.index"))
 
 @bp.route("/login", methods=("GET", "POST"))
 def login():
-   
+
     if request.method == "POST":
 
         password = request.form["password"]
         username = request.form["username"]
 
-        db = get_db()
-        error = None
-        user = db.execute(
-            "SELECT * FROM users WHERE username = ?", (username,)
-        ).fetchone()
-
-        if user is None:
-            error = "Incorrect credentials."
-        elif not check_password_hash(user["password_hash"], password):
-            error = "Incorrect credentials."
+        user, error = User.authenticate(username, password)
 
         if error is None:
-            # store the user id in a new session and return to the index
-            session.clear()
-            session["user_id"] = user["id"]
+            user.login()
             g.user = user
             return redirect(url_for("home.index"))
 

@@ -10,6 +10,8 @@ from flask import request
 from flask import url_for
 
 from .db import get_db
+from .models import Message
+from .models import User
 from . import auth
 
 bp = Blueprint("messages", __name__, url_prefix="/messages")
@@ -34,7 +36,7 @@ def inbox():
         "WHERE messages.sender_id = ? OR messages.recipient_id = ? "
         "GROUP BY users.id "
         "ORDER BY last_at DESC;",
-        (g.user["id"], g.user["id"], g.user["id"], g.user["id"], g.user["id"]),
+        (g.user.id, g.user.id, g.user.id, g.user.id, g.user.id),
     ).fetchall()
     return render_template("messages/inbox.html", threads=threads)
 
@@ -42,12 +44,9 @@ def inbox():
 @bp.route("/<int:user_id>", methods=("GET", "POST"))
 @auth.login_required
 def thread(user_id):
-    db = get_db()
-    other_user = db.execute(
-        "SELECT * FROM users WHERE id = ?;", (user_id,)
-    ).fetchone()
+    other_user = User.get_by_id(user_id)
 
-    if other_user is None or user_id == g.user["id"]:
+    if other_user is None or user_id == g.user.id:
         abort(404)
 
     if request.method == "POST":
@@ -55,18 +54,15 @@ def thread(user_id):
         if not body:
             flash("Message cannot be empty.", "error")
         else:
-            db.execute(
-                "INSERT INTO messages (sender_id, recipient_id, body) VALUES (?, ?, ?);",
-                (g.user["id"], user_id, body),
-            )
-            db.commit()
+            Message(sender_id=g.user.id, recipient_id=user_id, body=body).send()
         return redirect(url_for("messages.thread", user_id=user_id))
 
+    db = get_db()
     thread_messages = db.execute(
         "SELECT * FROM messages "
         "WHERE (sender_id = ? AND recipient_id = ?) OR (sender_id = ? AND recipient_id = ?) "
         "ORDER BY created_at;",
-        (g.user["id"], user_id, user_id, g.user["id"]),
+        (g.user.id, user_id, user_id, g.user.id),
     ).fetchall()
 
     return render_template(

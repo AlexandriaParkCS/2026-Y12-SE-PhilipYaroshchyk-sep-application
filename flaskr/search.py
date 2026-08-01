@@ -29,7 +29,7 @@ def sitters():
             "WHERE users.id != ? "
             "AND (users.username LIKE ? OR users.postcode LIKE ? OR users.about LIKE ?) "
             "GROUP BY users.id;",
-            (g.user["id"], like, like, like),
+            (g.user.id, like, like, like),
         ).fetchall()
         log.info(f"Sitter search for '{query}' returned {len(results)} results.")
 
@@ -57,7 +57,7 @@ def pets():
             "AND bookings.sitter_id IS NULL "
             "AND (pets.name LIKE ? OR pets.species LIKE ? OR pets.breed LIKE ?)"
         )
-        params = [g.user["id"], like, like, like]
+        params = [g.user.id, like, like, like]
 
         if min_price:
             sql += " AND bookings.daily_price >= ?"
@@ -70,5 +70,5 @@ def pets():
         results = db.execute(sql, params).fetchall()
         log.info(f"Pet search for '{query}' returned {len(results)} results.")
 
-    profile_complete = bool(g.user["about"] and g.user["postcode"] and g.user["photo"])
+    profile_complete = g.user.is_profile_complete()
     return render_template("search/pets.html", query=query, min_price=min_price, max_price=max_price, results=results, profile_complete=profile_complete)
